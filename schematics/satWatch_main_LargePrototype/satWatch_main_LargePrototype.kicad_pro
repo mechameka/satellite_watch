@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "satellite_watch.kicad_pro",
+    "filename": "satWatch_main_LargePrototype.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -523,7 +523,7 @@
   "pcbnew": {
     "last_paths": {
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "",
       "specctra_dsn": "",
       "vrml": ""
@@ -643,26 +643,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "satellite_watch.kicad_sch",
+        "filename": "satWatch_main_LargePrototype.kicad_sch",
         "name": "Root",
-        "uuid": "08995faa-2b43-46d0-9df9-cd92f16aba03"
+        "uuid": "b975a3df-968d-424f-9025-993d668abad1"
       }
     ],
-    "used_designators": "#PWR27-31,L1,BT3,TP1-4,R3,R19-21,U7,C16-17",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
-      "08995faa-2b43-46d0-9df9-cd92f16aba03",
+      "b975a3df-968d-424f-9025-993d668abad1",
       "Root"
-    ],
-    [
-      "5e2e8e54-7cb4-4851-9a02-c165d39e9217",
-      "Faceplate 1:Base"
-    ],
-    [
-      "4e6e38db-dc9c-4e12-a15a-97f29850888f",
-      "Mainboard"
     ]
   ],
   "text_variables": {},

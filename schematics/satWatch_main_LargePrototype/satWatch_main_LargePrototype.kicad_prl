@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "satellite_watch.kicad_prl",
+    "filename": "satWatch_main_LargePrototype.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -92,16 +92,16 @@
       9
     ],
     "col_widths": [
-      148,
-      138,
-      91,
+      66,
       61,
-      91,
-      91,
-      91,
+      75,
+      61,
       65,
-      91,
-      91
+      77,
+      67,
+      65,
+      41,
+      41
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
