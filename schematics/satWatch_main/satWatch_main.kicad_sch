@@ -5,10 +5,10 @@
 	(uuid "b975a3df-968d-424f-9025-993d668abad1")
 	(paper "A2")
 	(title_block
-		(title "MAINBOARD: LARGE PROTOTYPE")
+		(title "MAINBOARD")
 		(rev "0.1")
 		(company "MECHAMEKA")
-		(comment 1 "LARGE FORMAT MAINBOARD WITH TESTPOINTS AND INTEGRATED BATTERY CHARGER")
+		(comment 1 "MAINBOARD OF WATCHBODY")
 	)
 	(lib_symbols
 		(symbol "Battery_Management:DW01A"
@@ -2670,148 +2670,6 @@
 					(at 0 -2.54 90)
 					(length 0.508)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11605,7 +11463,7 @@
 	)
 	(text "GROUND LINE ROUTES SEPERATELY \nFROM PHOTODIODE PAD & MAIN GROUND"
 		(exclude_from_sim no)
-		(at 545.592 77.47 0)
+		(at 519.684 43.688 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11759,7 +11617,7 @@
 	)
 	(text_box "9AXIS IMU BMO085"
 		(exclude_from_sim no)
-		(at 314.96 250.19 0)
+		(at 377.19 284.48 0)
 		(size 189.23 80.01)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -11858,16 +11716,16 @@
 		(uuid "eaa83feb-9576-4b4f-9273-969c3f4dda18")
 	)
 	(junction
-		(at 544.83 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0159e8f4-9911-4902-bd08-6939bd1ca7a8")
-	)
-	(junction
 		(at 488.95 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05be8bc8-a70c-4f8d-9aab-fdc7d3f15446")
+	)
+	(junction
+		(at 524.51 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a761b23-ec76-4a93-b591-6a8dcc540b4b")
 	)
 	(junction
 		(at 326.39 72.39)
@@ -11888,19 +11746,13 @@
 		(uuid "11fd5140-0584-49f1-961e-4612bac132df")
 	)
 	(junction
-		(at 544.83 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1569b96c-0ff4-4fbe-97c9-2803f26b04ba")
-	)
-	(junction
 		(at 30.48 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18f67d63-c450-464f-9d9d-684419931e93")
 	)
 	(junction
-		(at 344.17 290.83)
+		(at 406.4 325.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a3c580f-964e-4ba1-a35d-8608541e8695")
@@ -11910,18 +11762,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a43139c-e178-43e4-b7d2-26244a34b1b4")
-	)
-	(junction
-		(at 528.32 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1aa66bf7-7730-48c1-9888-4cfb6654f07b")
-	)
-	(junction
-		(at 533.4 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c009082-d633-47d3-9871-68502cde66fd")
 	)
 	(junction
 		(at 44.45 36.83)
@@ -12062,7 +11902,7 @@
 		(uuid "53b076eb-2ce5-468f-9c7d-9964886a6bcf")
 	)
 	(junction
-		(at 325.12 273.05)
+		(at 387.35 307.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55030478-562d-4996-bae9-7e294f6654a3")
@@ -12128,22 +11968,16 @@
 		(uuid "65c6ba26-5bf4-4882-ae0c-7ab983d3fa2f")
 	)
 	(junction
-		(at 490.22 285.75)
+		(at 552.45 320.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72db68ff-89ba-4aa9-9881-222558f73591")
 	)
 	(junction
-		(at 449.58 311.15)
+		(at 511.81 345.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a55b7dc-957b-4e6c-a904-d9a4bbf8350f")
-	)
-	(junction
-		(at 520.7 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f258469-705d-4b00-a83a-e723e5643972")
 	)
 	(junction
 		(at 186.69 267.97)
@@ -12188,7 +12022,7 @@
 		(uuid "8fb06138-a6ae-4b20-97b5-52e9b49d4797")
 	)
 	(junction
-		(at 482.6 285.75)
+		(at 544.83 320.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "918b52e1-07fa-4620-be3d-eda141710fd6")
@@ -12240,12 +12074,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98a67c37-f2ad-4fab-9dd3-ad486003db3a")
-	)
-	(junction
-		(at 523.24 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ae8a116-2122-4a0a-ad9e-88f328fcb0b3")
 	)
 	(junction
 		(at 83.82 228.6)
@@ -12302,16 +12130,10 @@
 		(uuid "a64da3fb-a560-4ad9-8277-d1d00ff61f2d")
 	)
 	(junction
-		(at 449.58 273.05)
+		(at 511.81 307.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac973fa0-2c83-45fb-98bd-81b299f18522")
-	)
-	(junction
-		(at 520.7 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad659668-ba4a-42c7-88c3-849d99175741")
 	)
 	(junction
 		(at 60.96 118.11)
@@ -12368,13 +12190,19 @@
 		(uuid "bfd2b0da-a58f-490f-89bf-af26b60746d9")
 	)
 	(junction
+		(at 511.81 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2b6cb7d-1419-4715-84be-1f60efc7b5a1")
+	)
+	(junction
 		(at 210.82 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3207df3-d359-4820-b7ee-c7387a6e841a")
 	)
 	(junction
-		(at 482.6 295.91)
+		(at 544.83 330.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c41fe205-f360-43de-b3a4-4a2e52d7c54d")
@@ -12446,7 +12274,7 @@
 		(uuid "e0bfcb78-7b68-4fd9-af57-517eae4134ba")
 	)
 	(junction
-		(at 449.58 266.7)
+		(at 511.81 300.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4da884a-6682-4e25-aa99-909790b2293a")
@@ -12556,7 +12384,7 @@
 		(uuid "0616d037-adb4-4b94-bf44-38556d887e97")
 	)
 	(no_connect
-		(at 449.58 285.75)
+		(at 511.81 320.04)
 		(uuid "10986f1f-a14c-49e8-96a4-37a21ed770c9")
 	)
 	(no_connect
@@ -12584,7 +12412,7 @@
 		(uuid "74c38f4e-3998-41a4-8a73-2051efc79be6")
 	)
 	(no_connect
-		(at 449.58 288.29)
+		(at 511.81 322.58)
 		(uuid "83cf17ff-7ee4-4928-9881-2584a53f54ef")
 	)
 	(no_connect
@@ -12593,7 +12421,7 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 64.77) (xy 509.27 64.77)
+			(xy 511.81 64.77) (xy 509.27 64.77)
 		)
 		(stroke
 			(width 0)
@@ -12620,16 +12448,6 @@
 			(type default)
 		)
 		(uuid "00b75bc1-51ac-4cc5-bc89-5e5281dcd145")
-	)
-	(wire
-		(pts
-			(xy 533.4 52.07) (xy 544.83 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00b85143-c5e5-47c6-adc1-50b521659e9d")
 	)
 	(wire
 		(pts
@@ -12683,7 +12501,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 269.24) (xy 344.17 269.24)
+			(xy 393.7 303.53) (xy 406.4 303.53)
 		)
 		(stroke
 			(width 0)
@@ -12703,7 +12521,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 269.24) (xy 325.12 269.24)
+			(xy 388.62 303.53) (xy 387.35 303.53)
 		)
 		(stroke
 			(width 0)
@@ -12723,7 +12541,7 @@
 	)
 	(wire
 		(pts
-			(xy 528.32 63.5) (xy 528.32 67.31)
+			(xy 524.51 55.88) (xy 524.51 59.69)
 		)
 		(stroke
 			(width 0)
@@ -12733,7 +12551,7 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 311.15) (xy 449.58 314.96)
+			(xy 511.81 345.44) (xy 511.81 349.25)
 		)
 		(stroke
 			(width 0)
@@ -12763,7 +12581,7 @@
 	)
 	(wire
 		(pts
-			(xy 490.22 294.64) (xy 490.22 295.91)
+			(xy 552.45 328.93) (xy 552.45 330.2)
 		)
 		(stroke
 			(width 0)
@@ -13023,7 +12841,7 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 308.61) (xy 449.58 311.15)
+			(xy 511.81 342.9) (xy 511.81 345.44)
 		)
 		(stroke
 			(width 0)
@@ -13153,16 +12971,6 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 46.99) (xy 533.4 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b219d1-20e1-4cb3-a51b-60663883efc5")
-	)
-	(wire
-		(pts
 			(xy 245.11 184.15) (xy 248.92 184.15)
 		)
 		(stroke
@@ -13193,7 +13001,7 @@
 	)
 	(wire
 		(pts
-			(xy 490.22 295.91) (xy 482.6 295.91)
+			(xy 552.45 330.2) (xy 544.83 330.2)
 		)
 		(stroke
 			(width 0)
@@ -13223,6 +13031,16 @@
 	)
 	(wire
 		(pts
+			(xy 509.27 67.31) (xy 511.81 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c27ab6a-930a-4dd4-802a-ceba4f7dad87")
+	)
+	(wire
+		(pts
 			(xy 83.82 228.6) (xy 91.44 228.6)
 		)
 		(stroke
@@ -13233,17 +13051,7 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 59.69) (xy 520.7 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d4c5f93-01ab-4034-83c4-00a01807aed2")
-	)
-	(wire
-		(pts
-			(xy 449.58 273.05) (xy 449.58 275.59)
+			(xy 511.81 307.34) (xy 511.81 309.88)
 		)
 		(stroke
 			(width 0)
@@ -13263,7 +13071,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 273.05) (xy 325.12 275.59)
+			(xy 387.35 307.34) (xy 387.35 309.88)
 		)
 		(stroke
 			(width 0)
@@ -13313,7 +13121,7 @@
 	)
 	(wire
 		(pts
-			(xy 490.22 285.75) (xy 490.22 289.56)
+			(xy 552.45 320.04) (xy 552.45 323.85)
 		)
 		(stroke
 			(width 0)
@@ -13523,7 +13331,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 293.37) (xy 388.62 293.37)
+			(xy 444.5 327.66) (xy 450.85 327.66)
 		)
 		(stroke
 			(width 0)
@@ -13570,6 +13378,16 @@
 			(type default)
 		)
 		(uuid "2dea57c7-624f-47f7-b179-4b7c53d2136d")
+	)
+	(wire
+		(pts
+			(xy 511.81 69.85) (xy 532.13 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e66000b-12c1-4383-a5e1-e2ac1302ada9")
 	)
 	(wire
 		(pts
@@ -13633,7 +13451,7 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 298.45) (xy 453.39 298.45)
+			(xy 511.81 332.74) (xy 515.62 332.74)
 		)
 		(stroke
 			(width 0)
@@ -13663,7 +13481,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 269.24) (xy 325.12 273.05)
+			(xy 387.35 303.53) (xy 387.35 307.34)
 		)
 		(stroke
 			(width 0)
@@ -13823,7 +13641,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 285.75) (xy 388.62 285.75)
+			(xy 440.69 320.04) (xy 450.85 320.04)
 		)
 		(stroke
 			(width 0)
@@ -13833,7 +13651,7 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 295.91) (xy 482.6 298.45)
+			(xy 544.83 330.2) (xy 544.83 332.74)
 		)
 		(stroke
 			(width 0)
@@ -13873,7 +13691,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 300.99) (xy 388.62 300.99)
+			(xy 444.5 335.28) (xy 450.85 335.28)
 		)
 		(stroke
 			(width 0)
@@ -13973,7 +13791,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 290.83) (xy 353.06 290.83)
+			(xy 406.4 325.12) (xy 415.29 325.12)
 		)
 		(stroke
 			(width 0)
@@ -14000,6 +13818,16 @@
 			(type default)
 		)
 		(uuid "433f0870-e2b0-4775-a886-4c7e8f68f7ae")
+	)
+	(wire
+		(pts
+			(xy 524.51 59.69) (xy 509.27 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443fd15a-3dd0-4c12-8986-49f50ce29591")
 	)
 	(wire
 		(pts
@@ -14033,7 +13861,7 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 72.39) (xy 520.7 72.39)
+			(xy 509.27 72.39) (xy 511.81 72.39)
 		)
 		(stroke
 			(width 0)
@@ -14070,16 +13898,6 @@
 			(type default)
 		)
 		(uuid "45fc1ee7-fd9c-435a-a97a-b0e612a1a2a0")
-	)
-	(wire
-		(pts
-			(xy 528.32 67.31) (xy 537.21 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "462d092e-f2f9-44c4-92a9-84af121f58e0")
 	)
 	(wire
 		(pts
@@ -14153,7 +13971,7 @@
 	)
 	(wire
 		(pts
-			(xy 490.22 280.67) (xy 490.22 285.75)
+			(xy 552.45 314.96) (xy 552.45 320.04)
 		)
 		(stroke
 			(width 0)
@@ -14183,16 +14001,6 @@
 	)
 	(wire
 		(pts
-			(xy 542.29 67.31) (xy 543.56 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc8dd8c-4414-45f0-8f3f-4a16f1655928")
-	)
-	(wire
-		(pts
 			(xy 256.54 82.55) (xy 252.73 82.55)
 		)
 		(stroke
@@ -14203,7 +14011,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 288.29) (xy 388.62 288.29)
+			(xy 444.5 322.58) (xy 450.85 322.58)
 		)
 		(stroke
 			(width 0)
@@ -14213,13 +14021,13 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 69.85) (xy 520.7 72.39)
+			(xy 511.81 72.39) (xy 511.81 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e6873a0-3b51-4db3-94ff-36bfdfc14fa8")
+		(uuid "4e36b730-d28d-4bf5-b241-c2b959afa90d")
 	)
 	(wire
 		(pts
@@ -14283,17 +14091,7 @@
 	)
 	(wire
 		(pts
-			(xy 544.83 53.34) (xy 544.83 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52eaecde-6c7e-4844-b410-2bbd28c00366")
-	)
-	(wire
-		(pts
-			(xy 482.6 285.75) (xy 482.6 289.56)
+			(xy 544.83 320.04) (xy 544.83 323.85)
 		)
 		(stroke
 			(width 0)
@@ -14843,7 +14641,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 273.05) (xy 331.47 273.05)
+			(xy 387.35 307.34) (xy 393.7 307.34)
 		)
 		(stroke
 			(width 0)
@@ -14943,7 +14741,7 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 266.7) (xy 449.58 273.05)
+			(xy 511.81 300.99) (xy 511.81 307.34)
 		)
 		(stroke
 			(width 0)
@@ -15133,7 +14931,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 284.48) (xy 353.06 290.83)
+			(xy 415.29 318.77) (xy 415.29 325.12)
 		)
 		(stroke
 			(width 0)
@@ -15333,6 +15131,16 @@
 	)
 	(wire
 		(pts
+			(xy 511.81 69.85) (xy 511.81 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fd461b-51e2-432f-b8db-ffbcccafda6b")
+	)
+	(wire
+		(pts
 			(xy 210.82 48.26) (xy 210.82 45.72)
 		)
 		(stroke
@@ -15393,7 +15201,7 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 62.23) (xy 523.24 62.23)
+			(xy 509.27 62.23) (xy 518.16 62.23)
 		)
 		(stroke
 			(width 0)
@@ -15423,7 +15231,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 266.7) (xy 457.2 266.7)
+			(xy 523.24 300.99) (xy 519.43 300.99)
 		)
 		(stroke
 			(width 0)
@@ -15513,7 +15321,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 290.83) (xy 344.17 290.83)
+			(xy 397.51 325.12) (xy 406.4 325.12)
 		)
 		(stroke
 			(width 0)
@@ -15523,7 +15331,7 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 293.37) (xy 449.58 293.37)
+			(xy 514.35 327.66) (xy 511.81 327.66)
 		)
 		(stroke
 			(width 0)
@@ -15613,16 +15421,6 @@
 	)
 	(wire
 		(pts
-			(xy 544.83 46.99) (xy 553.72 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "968cc163-8855-40c5-ab37-cd10ca78f369")
-	)
-	(wire
-		(pts
 			(xy 208.28 87.63) (xy 222.25 87.63)
 		)
 		(stroke
@@ -15693,7 +15491,7 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 74.93) (xy 523.24 74.93)
+			(xy 509.27 74.93) (xy 518.16 74.93)
 		)
 		(stroke
 			(width 0)
@@ -15763,7 +15561,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 295.91) (xy 388.62 295.91)
+			(xy 444.5 330.2) (xy 450.85 330.2)
 		)
 		(stroke
 			(width 0)
@@ -15823,7 +15621,7 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 264.16) (xy 449.58 266.7)
+			(xy 511.81 298.45) (xy 511.81 300.99)
 		)
 		(stroke
 			(width 0)
@@ -15843,7 +15641,7 @@
 	)
 	(wire
 		(pts
-			(xy 543.56 68.58) (xy 543.56 67.31)
+			(xy 537.21 60.96) (xy 537.21 59.69)
 		)
 		(stroke
 			(width 0)
@@ -15863,7 +15661,7 @@
 	)
 	(wire
 		(pts
-			(xy 463.55 299.72) (xy 463.55 298.45)
+			(xy 525.78 334.01) (xy 525.78 332.74)
 		)
 		(stroke
 			(width 0)
@@ -15873,7 +15671,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 269.24) (xy 344.17 279.4)
+			(xy 406.4 303.53) (xy 406.4 313.69)
 		)
 		(stroke
 			(width 0)
@@ -15923,7 +15721,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 273.05) (xy 353.06 273.05)
+			(xy 398.78 307.34) (xy 415.29 307.34)
 		)
 		(stroke
 			(width 0)
@@ -15943,7 +15741,7 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 283.21) (xy 482.6 283.21)
+			(xy 511.81 317.5) (xy 544.83 317.5)
 		)
 		(stroke
 			(width 0)
@@ -15993,7 +15791,7 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 77.47) (xy 509.27 77.47)
+			(xy 511.81 77.47) (xy 509.27 77.47)
 		)
 		(stroke
 			(width 0)
@@ -16113,7 +15911,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 283.21) (xy 388.62 283.21)
+			(xy 440.69 317.5) (xy 450.85 317.5)
 		)
 		(stroke
 			(width 0)
@@ -16123,7 +15921,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 280.67) (xy 388.62 280.67)
+			(xy 444.5 314.96) (xy 450.85 314.96)
 		)
 		(stroke
 			(width 0)
@@ -16323,7 +16121,7 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 280.67) (xy 490.22 280.67)
+			(xy 511.81 314.96) (xy 552.45 314.96)
 		)
 		(stroke
 			(width 0)
@@ -16343,16 +16141,6 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 62.23) (xy 523.24 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdece541-fea8-41f8-b58d-4d8cf879f067")
-	)
-	(wire
-		(pts
 			(xy 266.7 179.07) (xy 261.62 179.07)
 		)
 		(stroke
@@ -16363,7 +16151,7 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 69.85) (xy 520.7 69.85)
+			(xy 509.27 69.85) (xy 511.81 69.85)
 		)
 		(stroke
 			(width 0)
@@ -16383,16 +16171,6 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 59.69) (xy 520.7 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c00829a1-3e4b-4c6a-bc3b-d530d13be0cc")
-	)
-	(wire
-		(pts
 			(xy 344.17 204.47) (xy 349.25 204.47)
 		)
 		(stroke
@@ -16403,7 +16181,7 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 294.64) (xy 482.6 295.91)
+			(xy 544.83 328.93) (xy 544.83 330.2)
 		)
 		(stroke
 			(width 0)
@@ -16483,7 +16261,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 290.83) (xy 388.62 290.83)
+			(xy 444.5 325.12) (xy 450.85 325.12)
 		)
 		(stroke
 			(width 0)
@@ -16520,16 +16298,6 @@
 			(type default)
 		)
 		(uuid "c5512a72-d986-4712-b049-19cf4abc8ce8")
-	)
-	(wire
-		(pts
-			(xy 520.7 72.39) (xy 520.7 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c614c0bc-d591-4ddd-b973-4e67ae8fc101")
 	)
 	(wire
 		(pts
@@ -16643,7 +16411,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 273.05) (xy 353.06 279.4)
+			(xy 415.29 307.34) (xy 415.29 313.69)
 		)
 		(stroke
 			(width 0)
@@ -16793,6 +16561,16 @@
 	)
 	(wire
 		(pts
+			(xy 537.21 59.69) (xy 524.51 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d023e2bc-082c-48d0-b519-c31d7204d63b")
+	)
+	(wire
+		(pts
 			(xy 60.96 201.93) (xy 71.12 201.93)
 		)
 		(stroke
@@ -16820,16 +16598,6 @@
 			(type default)
 		)
 		(uuid "d26cee4b-0006-4ba3-bc1e-1c403a4d3558")
-	)
-	(wire
-		(pts
-			(xy 509.27 67.31) (xy 528.32 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2ee3d6d-7f47-4775-9405-8ad0e6c7fbc1")
 	)
 	(wire
 		(pts
@@ -16943,7 +16711,7 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 266.7) (xy 449.58 266.7)
+			(xy 514.35 300.99) (xy 511.81 300.99)
 		)
 		(stroke
 			(width 0)
@@ -17253,7 +17021,7 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 283.21) (xy 482.6 285.75)
+			(xy 544.83 317.5) (xy 544.83 320.04)
 		)
 		(stroke
 			(width 0)
@@ -17303,6 +17071,16 @@
 	)
 	(wire
 		(pts
+			(xy 532.13 73.66) (xy 532.13 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9768065-ea0e-4333-8078-c291fbe20afd")
+	)
+	(wire
+		(pts
 			(xy 259.08 228.6) (xy 259.08 236.22)
 		)
 		(stroke
@@ -17333,7 +17111,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 284.48) (xy 344.17 290.83)
+			(xy 406.4 318.77) (xy 406.4 325.12)
 		)
 		(stroke
 			(width 0)
@@ -17353,7 +17131,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 267.97) (xy 461.01 266.7)
+			(xy 523.24 302.26) (xy 523.24 300.99)
 		)
 		(stroke
 			(width 0)
@@ -17470,16 +17248,6 @@
 			(type default)
 		)
 		(uuid "efb97e86-f44d-4867-9238-39d652162cc2")
-	)
-	(wire
-		(pts
-			(xy 533.4 46.99) (xy 544.83 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f10273ed-6a6e-4158-9d43-8c3e9613ba25")
 	)
 	(wire
 		(pts
@@ -17683,16 +17451,6 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 46.99) (xy 523.24 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc521184-e71e-4368-8077-5095f68dc523")
-	)
-	(wire
-		(pts
 			(xy 74.93 167.64) (xy 74.93 170.18)
 		)
 		(stroke
@@ -17733,7 +17491,7 @@
 	)
 	(wire
 		(pts
-			(xy 463.55 298.45) (xy 458.47 298.45)
+			(xy 525.78 332.74) (xy 520.7 332.74)
 		)
 		(stroke
 			(width 0)
@@ -17932,7 +17690,7 @@
 		(uuid "12ff06e5-b5ab-4aaf-b17e-b2cbbe3edf88")
 	)
 	(label "ACCEL_RST"
-		(at 452.12 293.37 0)
+		(at 514.35 327.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18092,7 +17850,7 @@
 		(uuid "2ceee4ef-7255-4048-b630-b5d31500603b")
 	)
 	(label "ACCEL_MOSI"
-		(at 382.27 280.67 180)
+		(at 444.5 314.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18112,7 +17870,7 @@
 		(uuid "30ff48ba-32c5-4a47-8246-5306310910a9")
 	)
 	(label "GPIO6{slash}SCL"
-		(at 378.46 285.75 180)
+		(at 440.69 320.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18368,7 +18126,7 @@
 		(uuid "5d20e7b1-6ced-461e-92fd-11c5cbae69e7")
 	)
 	(label "ACCEL_PS0"
-		(at 382.27 295.91 180)
+		(at 444.5 330.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18458,7 +18216,7 @@
 		(uuid "6983b145-d0bb-4764-a78e-10888add7327")
 	)
 	(label "LED2_DRV"
-		(at 510.54 77.47 0)
+		(at 511.81 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18518,7 +18276,7 @@
 		(uuid "76b10a0d-28d5-4bb9-aa82-dcc423f1d098")
 	)
 	(label "GPIO5{slash}SDA"
-		(at 378.46 283.21 180)
+		(at 440.69 317.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18618,7 +18376,7 @@
 		(uuid "81696580-a5e7-4801-a1b2-9c00aded776f")
 	)
 	(label "ACCEL_PS0"
-		(at 353.06 273.05 180)
+		(at 415.29 307.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18708,7 +18466,7 @@
 		(uuid "8c00deea-811b-4e09-b953-1cf336334309")
 	)
 	(label "ACCEL_PS1"
-		(at 344.17 269.24 180)
+		(at 406.4 303.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18748,7 +18506,7 @@
 		(uuid "8d61b269-73a2-43f7-bdab-7bca0ec12165")
 	)
 	(label "ACCEL_INT"
-		(at 382.27 288.29 180)
+		(at 444.5 322.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18798,7 +18556,7 @@
 		(uuid "97f97ea4-19de-4cca-bb9f-3bf38db4051b")
 	)
 	(label "ACCEL_BOOT"
-		(at 382.27 290.83 180)
+		(at 444.5 325.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18838,7 +18596,7 @@
 		(uuid "a0ce5f8f-91fe-40ce-a7c0-a88ab6f8761f")
 	)
 	(label "PD_GND"
-		(at 528.32 63.5 0)
+		(at 524.51 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18958,7 +18716,7 @@
 		(uuid "b93a0897-b7f6-4cf1-b5a4-8abc8a25a306")
 	)
 	(label "ACCEL_PS1"
-		(at 382.27 293.37 180)
+		(at 444.5 327.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19008,7 +18766,7 @@
 		(uuid "c11fbf84-5ec3-4f76-8a3e-e66974152ee5")
 	)
 	(label "ACCEL_CS"
-		(at 382.27 300.99 180)
+		(at 444.5 335.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19334,7 +19092,7 @@
 		(uuid "f6fb6ef9-a85d-48c7-98d9-f0389f824cd1")
 	)
 	(label "LED1_DRV"
-		(at 510.54 64.77 0)
+		(at 511.81 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19474,7 +19232,7 @@
 			(uuid "4bca4f0b-f491-4600-ab36-128cfd88cf7b")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR053")
 					(unit 1)
@@ -19553,7 +19311,7 @@
 			(uuid "e0473ca7-9108-4766-8f1a-c54236d931e1")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP11")
 					(unit 1)
@@ -19631,7 +19389,7 @@
 			(uuid "db65f696-bcbd-439e-b5bb-7306c3271ba4")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR016")
 					(unit 1)
@@ -19724,7 +19482,7 @@
 			(uuid "dee8ad21-d86c-49fe-9e2e-836a3013581f")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "D7")
 					(unit 1)
@@ -19802,7 +19560,7 @@
 			(uuid "fe1fa6d4-9933-463f-b357-a745587bd7a1")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR018")
 					(unit 1)
@@ -19812,7 +19570,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 543.56 68.58 0)
+		(at 537.21 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19823,7 +19581,7 @@
 		(fields_autoplaced yes)
 		(uuid "06d6f2ef-2132-408e-b4d0-fa102b8f5861")
 		(property "Reference" "#PWR043"
-			(at 543.56 74.93 0)
+			(at 537.21 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19834,7 +19592,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 543.56 73.66 0)
+			(at 537.21 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19844,7 +19602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 543.56 68.58 0)
+			(at 537.21 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19855,7 +19613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 543.56 68.58 0)
+			(at 537.21 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19866,7 +19624,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 543.56 68.58 0)
+			(at 537.21 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19880,7 +19638,7 @@
 			(uuid "9f2e9bb9-166f-424b-bba7-b4dc68fdf0d0")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR043")
 					(unit 1)
@@ -19957,7 +19715,7 @@
 			(uuid "c59959df-b550-4342-96ba-4a7dfdd2384a")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP6")
 					(unit 1)
@@ -20038,7 +19796,7 @@
 			(uuid "b6655b52-d85f-484f-937f-f37fed72d1c8")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C12")
 					(unit 1)
@@ -20127,7 +19885,7 @@
 			(uuid "5d6c4595-5157-4b96-a59e-5e6460ffbefe")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "U6")
 					(unit 1)
@@ -20205,7 +19963,7 @@
 			(uuid "00a6e527-6527-46a3-92e4-5578dfcb4f16")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR012")
 					(unit 1)
@@ -20215,7 +19973,7 @@
 	)
 	(symbol
 		(lib_id "symbols:BNO085")
-		(at 419.1 290.83 0)
+		(at 481.33 325.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20226,7 +19984,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f5c8bb5-e70b-4b44-8c86-24a8953445ca")
 		(property "Reference" "U12"
-			(at 419.1 265.43 0)
+			(at 481.33 299.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20236,7 +19994,7 @@
 			)
 		)
 		(property "Value" "BNO085"
-			(at 419.1 267.97 0)
+			(at 481.33 302.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20246,7 +20004,7 @@
 			)
 		)
 		(property "Footprint" "footprint:IC_BNO085"
-			(at 419.1 290.83 0)
+			(at 481.33 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20258,7 +20016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 419.1 290.83 0)
+			(at 481.33 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20269,7 +20027,7 @@
 			)
 		)
 		(property "Description" "Accelerometer, Gyroscope, Magnetometer, 9 Axis Sensor I²C, SPI, UART Output"
-			(at 419.1 290.83 0)
+			(at 481.33 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20281,7 +20039,7 @@
 			)
 		)
 		(property "MF" "Hillcrest Laboratories,"
-			(at 419.1 290.83 0)
+			(at 481.33 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20293,7 +20051,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.18mm"
-			(at 419.1 290.83 0)
+			(at 481.33 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20305,7 +20063,7 @@
 			)
 		)
 		(property "Package" "TFLGA-28 Hillcrest Laboratories"
-			(at 419.1 290.83 0)
+			(at 481.33 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20317,7 +20075,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 419.1 290.83 0)
+			(at 481.33 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20329,7 +20087,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BNO085/Hillcrest+Laboratories%252C+Inc./view-part/?ref=eda"
-			(at 419.1 290.83 0)
+			(at 481.33 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20341,7 +20099,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 419.1 290.83 0)
+			(at 481.33 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20353,7 +20111,7 @@
 			)
 		)
 		(property "PARTREV" "v1.17"
-			(at 419.1 290.83 0)
+			(at 481.33 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20365,7 +20123,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BNO085/Hillcrest+Laboratories%252C+Inc./view-part/?ref=snap"
-			(at 419.1 290.83 0)
+			(at 481.33 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20377,7 +20135,7 @@
 			)
 		)
 		(property "MP" "BNO085"
-			(at 419.1 290.83 0)
+			(at 481.33 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20389,7 +20147,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 419.1 290.83 0)
+			(at 481.33 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20401,7 +20159,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Hillcrest Laboratories, Inc."
-			(at 419.1 290.83 0)
+			(at 481.33 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20497,7 +20255,7 @@
 			(uuid "77ceca9c-5cf5-48cc-a8db-feced360d7fd")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "U12")
 					(unit 1)
@@ -20575,7 +20333,7 @@
 			(uuid "68f7b3f6-233a-4364-9249-ef9996817284")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP26")
 					(unit 1)
@@ -20656,7 +20414,7 @@
 			(uuid "4514c489-d0aa-46d1-bff9-6a4d88ef8955")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "SW4")
 					(unit 1)
@@ -20666,7 +20424,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 449.58 314.96 0)
+		(at 511.81 349.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20677,7 +20435,7 @@
 		(fields_autoplaced yes)
 		(uuid "105e1f8f-77e0-493e-9671-ae8d916a654d")
 		(property "Reference" "#PWR015"
-			(at 449.58 321.31 0)
+			(at 511.81 355.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20688,7 +20446,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 449.58 320.04 0)
+			(at 511.81 354.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20698,7 +20456,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 449.58 314.96 0)
+			(at 511.81 349.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20709,7 +20467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 449.58 314.96 0)
+			(at 511.81 349.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20720,7 +20478,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 449.58 314.96 0)
+			(at 511.81 349.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20734,7 +20492,7 @@
 			(uuid "606a0e5b-e8eb-46df-9bad-f9e433bb821a")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR015")
 					(unit 1)
@@ -20815,7 +20573,7 @@
 			(uuid "45eb836d-be4f-4799-a29f-ffceca017a2f")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C14")
 					(unit 1)
@@ -20893,7 +20651,7 @@
 			(uuid "ba8df597-9a61-45f3-8aab-f257f896bc63")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR01")
 					(unit 1)
@@ -20972,7 +20730,7 @@
 			(uuid "f749682d-19d6-438c-80de-085c98baa1c3")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R29")
 					(unit 1)
@@ -21050,7 +20808,7 @@
 			(uuid "fd37fdc6-4524-433a-b9c0-ac1599236784")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP18")
 					(unit 1)
@@ -21132,7 +20890,7 @@
 			(uuid "b8d095f2-af31-412e-b7b0-eabbd8ce86ef")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C20")
 					(unit 1)
@@ -21225,7 +20983,7 @@
 			(uuid "022abe4d-d3f9-46d5-82c5-97b3d39cc847")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "D2")
 					(unit 1)
@@ -21303,7 +21061,7 @@
 			(uuid "e13daf57-5a60-4950-9bf3-9e4b5ddb2c3a")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR044")
 					(unit 1)
@@ -21384,7 +21142,7 @@
 			(uuid "ed17c181-2e4d-4e11-81c1-7972aa13a369")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C8")
 					(unit 1)
@@ -21463,7 +21221,7 @@
 			(uuid "429955f0-60a3-4a0f-8a5f-a77c4becdca6")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R18")
 					(unit 1)
@@ -21541,7 +21299,7 @@
 			(uuid "06b544bd-ffd8-4b52-a831-004b325334cc")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR010")
 					(unit 1)
@@ -21620,7 +21378,7 @@
 			(uuid "efbce031-1845-419c-a6d5-25522b9b52c3")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP4")
 					(unit 1)
@@ -21698,87 +21456,9 @@
 			(uuid "90118e2a-7f53-4799-8a0e-dfc4484ba9bf")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 544.83 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2afd2c94-90bf-4a9c-931d-b003c3200132")
-		(property "Reference" "#PWR042"
-			(at 544.83 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 544.83 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 544.83 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 544.83 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 544.83 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0417f24a-6792-43c8-86ca-10d1efabb531")
-		)
-		(instances
-			(project "satWatch_main_LargePrototype"
-				(path "/b975a3df-968d-424f-9025-993d668abad1"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -21854,7 +21534,7 @@
 			(uuid "70a44ed6-6f4e-4583-bd1a-8c77172558fe")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR026")
 					(unit 1)
@@ -22080,7 +21760,7 @@
 			(uuid "455a27fa-fa86-4a63-8799-26992d33ff5d")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "Q1")
 					(unit 1)
@@ -22161,7 +21841,7 @@
 			(uuid "5e501479-2ef3-4a08-8739-68325855bd56")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C19")
 					(unit 1)
@@ -22239,7 +21919,7 @@
 			(uuid "d17fca19-e7cc-470c-ae44-0ca06abcb874")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR037")
 					(unit 1)
@@ -22320,7 +22000,7 @@
 			(uuid "182580f9-382f-481e-aa98-56454358a302")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C3")
 					(unit 1)
@@ -22399,7 +22079,7 @@
 			(uuid "49fa09bb-56e7-440f-b696-de273e7961c3")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR048")
 					(unit 1)
@@ -22409,7 +22089,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 325.12 275.59 0)
+		(at 387.35 309.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22420,7 +22100,7 @@
 		(fields_autoplaced yes)
 		(uuid "3487d8be-4338-469a-9596-e78c09839b62")
 		(property "Reference" "#PWR040"
-			(at 325.12 281.94 0)
+			(at 387.35 316.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22431,7 +22111,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 325.12 280.67 0)
+			(at 387.35 314.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22441,7 +22121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 275.59 0)
+			(at 387.35 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22452,7 +22132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 275.59 0)
+			(at 387.35 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22463,7 +22143,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 325.12 275.59 0)
+			(at 387.35 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22477,7 +22157,7 @@
 			(uuid "1fc68df9-a1e1-4dd0-85b5-ffc3148adacb")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR040")
 					(unit 1)
@@ -22556,7 +22236,7 @@
 			(uuid "81cbda58-4866-4d77-832f-b2ec8670054c")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP5")
 					(unit 1)
@@ -22634,7 +22314,7 @@
 			(uuid "a5f16091-fb53-4db9-99ab-4e1119e60220")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP27")
 					(unit 1)
@@ -22712,7 +22392,7 @@
 			(uuid "b3dee687-a48b-4662-856f-73c3a6e8c97a")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR027")
 					(unit 1)
@@ -22790,7 +22470,7 @@
 			(uuid "49ad0adf-6d4b-4980-a79f-a1c6b8be57eb")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR034")
 					(unit 1)
@@ -22890,7 +22570,7 @@
 			(uuid "14e085ea-f24c-4311-a734-afec4a2a4593")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "U7")
 					(unit 1)
@@ -22970,7 +22650,7 @@
 			(uuid "2278c5da-a5c0-4d7c-a1b5-a7b30fca1bd4")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R22")
 					(unit 1)
@@ -23114,7 +22794,7 @@
 			(uuid "24f2e413-81e2-4067-ab44-2467ad83a144")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "BT3")
 					(unit 1)
@@ -23192,7 +22872,7 @@
 			(uuid "68edd2b4-d87c-42db-b8fe-4c648678b2d0")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR020")
 					(unit 1)
@@ -23272,7 +22952,7 @@
 			(uuid "5d43f939-7bac-4427-b31c-276b39162bf2")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R9")
 					(unit 1)
@@ -23350,7 +23030,7 @@
 			(uuid "7babb1a9-7145-4c56-b302-3fb8c11b3412")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR047")
 					(unit 1)
@@ -23428,7 +23108,7 @@
 			(uuid "f6e7a445-f963-4a25-bb4a-6d434ea72b60")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR024")
 					(unit 1)
@@ -23506,7 +23186,7 @@
 			(uuid "b7b2ba7b-ea65-4585-8978-e63a26e150a1")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR033")
 					(unit 1)
@@ -23584,7 +23264,7 @@
 			(uuid "b8ea3b75-e396-46d5-b252-30a0ff3feac3")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR054")
 					(unit 1)
@@ -23662,7 +23342,7 @@
 			(uuid "d2ac8563-b1e8-48db-b80b-934be4e368df")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP20")
 					(unit 1)
@@ -23765,7 +23445,7 @@
 			(uuid "546ca5d3-601a-4181-a8b1-82eb0ddd031d")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "U8")
 					(unit 1)
@@ -23774,90 +23454,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 544.83 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "466607a9-00a3-4eaa-80e2-508d47eb608a")
-		(property "Reference" "C29"
-			(at 547.37 48.2662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 547.37 50.8062 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 544.83 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 544.83 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 544.83 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7a24025-c683-4a96-bec9-97fa8e333c4e")
-		)
-		(pin "2"
-			(uuid "1f04c26d-7e37-4d8a-a083-b1142045f49d")
-		)
-		(instances
-			(project "satWatch_main_LargePrototype"
-				(path "/b975a3df-968d-424f-9025-993d668abad1"
-					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V0")
-		(at 335.28 290.83 0)
+		(at 397.51 325.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23868,7 +23466,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b9fc6fc-6071-4653-a67b-9337e7905d8e")
 		(property "Reference" "#PWR055"
-			(at 335.28 294.64 0)
+			(at 397.51 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23879,7 +23477,7 @@
 			)
 		)
 		(property "Value" "VCC_3V3"
-			(at 335.28 285.75 0)
+			(at 397.51 320.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23889,7 +23487,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 290.83 0)
+			(at 397.51 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23900,7 +23498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 290.83 0)
+			(at 397.51 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23911,7 +23509,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 335.28 290.83 0)
+			(at 397.51 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23925,7 +23523,7 @@
 			(uuid "0a08049f-4a82-493d-844c-6ca9f310bb1f")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR055")
 					(unit 1)
@@ -23967,7 +23565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:ESP32-S2-MINI-1"
+		(property "Footprint" "RF_Module:ESP32-S2-MINI-1"
 			(at 252.73 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -24196,7 +23794,7 @@
 			(uuid "142b8be5-6bd2-4954-8ed2-c1ce8b0fdd16")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "U1")
 					(unit 1)
@@ -24401,7 +23999,7 @@
 			(uuid "9f9b4695-cb83-4671-ba60-0521b3a5a574")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "Q3")
 					(unit 1)
@@ -24411,7 +24009,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 344.17 281.94 0)
+		(at 406.4 316.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24421,7 +24019,7 @@
 		(dnp no)
 		(uuid "4edc646b-3dbb-4b88-b2b0-68bf621fd84f")
 		(property "Reference" "R32"
-			(at 342.138 282.702 90)
+			(at 404.368 316.992 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24431,7 +24029,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 339.598 282.702 90)
+			(at 401.828 316.992 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24441,7 +24039,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 344.17 281.94 0)
+			(at 406.4 316.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24452,7 +24050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 281.94 0)
+			(at 406.4 316.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24463,7 +24061,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 344.17 281.94 0)
+			(at 406.4 316.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24480,7 +24078,7 @@
 			(uuid "468a3e84-17fd-4534-a644-19b36ae37676")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R32")
 					(unit 1)
@@ -24562,7 +24160,7 @@
 			(uuid "5d9170c0-1ae3-42d6-a869-5e3776a246e4")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R12")
 					(unit 1)
@@ -24640,7 +24238,7 @@
 			(uuid "9b97f884-ad83-47a2-8277-95cc043b3717")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR08")
 					(unit 1)
@@ -24722,7 +24320,7 @@
 			(uuid "abfc0e45-e658-4752-97c4-f9aaaecb9fc8")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R16")
 					(unit 1)
@@ -24800,7 +24398,7 @@
 			(uuid "c0e6bc69-377e-4230-8e3c-d6606873adcb")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR030")
 					(unit 1)
@@ -24882,9 +24480,88 @@
 			(uuid "85e06b6a-ba72-468f-9869-79703646373c")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 518.16 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5450459f-bc3a-4f9d-a01f-27ff8b4dfce1")
+		(property "Reference" "#PWR049"
+			(at 514.35 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1V8"
+			(at 521.97 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 518.16 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 518.16 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 518.16 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6753df62-dd60-444c-89d0-4ca8a920d5e5")
+		)
+		(instances
+			(project "satWatch_main"
+				(path "/b975a3df-968d-424f-9025-993d668abad1"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -24964,7 +24641,7 @@
 			(uuid "6789bf22-624f-4639-9b79-565c8f84031c")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R15")
 					(unit 1)
@@ -24974,7 +24651,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 461.01 267.97 0)
+		(at 523.24 302.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24985,7 +24662,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a5e3835-a3ec-41e6-a838-171eb1afa9ca")
 		(property "Reference" "#PWR035"
-			(at 461.01 274.32 0)
+			(at 523.24 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24996,7 +24673,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 461.01 273.05 0)
+			(at 523.24 307.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25006,7 +24683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 461.01 267.97 0)
+			(at 523.24 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25017,7 +24694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 461.01 267.97 0)
+			(at 523.24 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25028,7 +24705,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 461.01 267.97 0)
+			(at 523.24 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25042,7 +24719,7 @@
 			(uuid "d1740936-63ab-4b00-b50b-3a5b978b034c")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR035")
 					(unit 1)
@@ -25124,7 +24801,7 @@
 			(uuid "9eaccdf9-478f-4163-bde6-4bb9b77fcd95")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C23")
 					(unit 1)
@@ -25206,7 +24883,7 @@
 			(uuid "684db230-1cf7-41eb-a5a0-0d763df90224")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C18")
 					(unit 1)
@@ -25284,7 +24961,7 @@
 			(uuid "9e1898b7-9258-4dad-8d3e-fe3a428638ed")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR032")
 					(unit 1)
@@ -25362,87 +25039,9 @@
 			(uuid "2e5e3734-c5f0-49e8-a521-1565f37a0fbe")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 553.72 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "636f0925-8cb8-46db-923f-ff5d2216aada")
-		(property "Reference" "#PWR056"
-			(at 553.72 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1V8"
-			(at 553.72 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 553.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 553.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 553.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b17db215-3b5d-49b3-8b30-699f9d2dd718")
-		)
-		(instances
-			(project "satWatch_main_LargePrototype"
-				(path "/b975a3df-968d-424f-9025-993d668abad1"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -25522,7 +25121,7 @@
 			(uuid "e28b2703-c5d8-470e-8433-e247a9e1863c")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R25")
 					(unit 1)
@@ -25603,7 +25202,7 @@
 			(uuid "93ad79ce-88c1-43b4-8369-8d6d2b54efeb")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C4")
 					(unit 1)
@@ -25686,7 +25285,7 @@
 			(uuid "a5efa221-1dbf-4f6f-98f0-cc55755594e1")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "Q4")
 					(unit 1)
@@ -25764,7 +25363,7 @@
 			(uuid "967cc03f-3bac-4d22-b11a-3032accac978")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR017")
 					(unit 1)
@@ -25843,7 +25442,7 @@
 			(uuid "c6d3858e-9341-4454-a1ac-a008158d453a")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R3")
 					(unit 1)
@@ -25853,7 +25452,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 353.06 281.94 180)
+		(at 415.29 316.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25863,7 +25462,7 @@
 		(dnp no)
 		(uuid "69ce6bdf-5a47-4c28-9893-d6de18eedd84")
 		(property "Reference" "R33"
-			(at 355.092 281.178 90)
+			(at 417.322 315.468 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25873,7 +25472,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 357.632 281.178 90)
+			(at 419.862 315.468 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25883,7 +25482,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 353.06 281.94 0)
+			(at 415.29 316.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25894,7 +25493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 281.94 0)
+			(at 415.29 316.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25905,7 +25504,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 353.06 281.94 0)
+			(at 415.29 316.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25922,7 +25521,7 @@
 			(uuid "a3be8d2b-3573-4986-9ef5-fe0c3dac984b")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R33")
 					(unit 1)
@@ -26001,7 +25600,7 @@
 			(uuid "6f1404d3-7561-4f19-ae01-0e5c8d18e37a")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R21")
 					(unit 1)
@@ -26083,7 +25682,7 @@
 			(uuid "ba9caad1-8be4-4bdb-841e-b6c95f816740")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R27")
 					(unit 1)
@@ -26162,7 +25761,7 @@
 			(uuid "5011a103-0fb2-470a-b96c-cd4e3212f88a")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP9")
 					(unit 1)
@@ -26240,7 +25839,7 @@
 			(uuid "f7b198f3-67f2-48eb-b676-16de4a0fecaf")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR029")
 					(unit 1)
@@ -26319,7 +25918,7 @@
 			(uuid "e9dc26c4-1ac5-4c05-ae46-87e5d3abbdc2")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP10")
 					(unit 1)
@@ -26329,7 +25928,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 455.93 298.45 90)
+		(at 518.16 332.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26339,7 +25938,7 @@
 		(dnp no)
 		(uuid "73f3b542-37d5-44bd-b588-faae96cc5eb9")
 		(property "Reference" "C26"
-			(at 458.216 303.784 90)
+			(at 520.446 338.074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26350,7 +25949,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 458.216 301.244 90)
+			(at 520.446 335.534 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26361,7 +25960,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 455.93 298.45 0)
+			(at 518.16 332.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26372,7 +25971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 455.93 298.45 0)
+			(at 518.16 332.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26383,7 +25982,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 455.93 298.45 0)
+			(at 518.16 332.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26400,7 +25999,7 @@
 			(uuid "c5feeda2-12e6-46c8-a7b3-71251824d02e")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C26")
 					(unit 1)
@@ -26478,7 +26077,7 @@
 			(uuid "0a0fd422-7f6a-43fa-9467-f61426bc6fae")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR022")
 					(unit 1)
@@ -26556,7 +26155,7 @@
 			(uuid "14e1c4c2-49ef-4883-823e-efaf73a0ade1")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR07")
 					(unit 1)
@@ -26635,7 +26234,7 @@
 			(uuid "6635de6b-d3f4-4b85-88c3-8dd92e0d31fd")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR052")
 					(unit 1)
@@ -26717,7 +26316,7 @@
 			(uuid "bb9018ff-5a0f-4948-b1de-1bd374ebfb8b")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "SW2")
 					(unit 1)
@@ -26799,7 +26398,7 @@
 			(uuid "aea033a1-8f94-4510-9688-9c0e6a2aa3ad")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C9")
 					(unit 1)
@@ -26881,91 +26480,9 @@
 			(uuid "24f0f390-dc08-4274-aba3-ef9b45ff4c9d")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 533.4 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a44de33-88b1-43b3-808c-927c4451582e")
-		(property "Reference" "C28"
-			(at 535.94 48.2662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 535.94 50.8062 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 533.4 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 533.4 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 533.4 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f084475a-b001-4659-b555-1440c88f5a63")
-		)
-		(pin "2"
-			(uuid "ff483e02-2f6e-4318-95b3-da56f570703f")
-		)
-		(instances
-			(project "satWatch_main_LargePrototype"
-				(path "/b975a3df-968d-424f-9025-993d668abad1"
-					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -27044,7 +26561,7 @@
 			(uuid "0c6f3eb5-dd6c-437d-bc77-20e44cfa0969")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R4")
 					(unit 1)
@@ -27122,7 +26639,7 @@
 			(uuid "2238291a-ab36-44c5-84f6-7046d414b64b")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP23")
 					(unit 1)
@@ -27201,7 +26718,7 @@
 			(uuid "16115648-dab5-4311-a9df-22596ccaa2df")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP7")
 					(unit 1)
@@ -27279,7 +26796,7 @@
 			(uuid "3bea06ba-7bdb-4885-b59f-2037e7af8d11")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR041")
 					(unit 1)
@@ -27361,7 +26878,7 @@
 			(uuid "5e1b9e10-9b7f-4ff8-ab8a-cf2e95be23db")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C16")
 					(unit 1)
@@ -27439,89 +26956,9 @@
 			(uuid "28e712c6-ba70-4259-98c7-38ec563dc025")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 539.75 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ab5b966-8690-457d-9cf2-e723817c0299")
-		(property "Reference" "NT1"
-			(at 539.75 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 539.75 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 539.75 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 539.75 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 539.75 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3544d8e3-6500-45e5-9c3b-faa3f5b6b89d")
-		)
-		(pin "1"
-			(uuid "0e622069-42e5-4596-9909-47c5870510a3")
-		)
-		(instances
-			(project "satWatch_main_LargePrototype"
-				(path "/b975a3df-968d-424f-9025-993d668abad1"
-					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -27601,7 +27038,7 @@
 			(uuid "96e0fe0b-2fee-4954-b70a-baf80cb75bcf")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "D1")
 					(unit 1)
@@ -27682,7 +27119,7 @@
 			(uuid "56ec8319-c88d-46c0-9005-63b8ab49e56d")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C1")
 					(unit 1)
@@ -27760,9 +27197,88 @@
 			(uuid "7b8132be-94cf-4e13-8413-2635ed1018c9")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 518.16 74.93 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "906b3a30-dfee-4103-898c-d16e7c7b48b5")
+		(property "Reference" "#PWR050"
+			(at 514.35 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1V8"
+			(at 521.97 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 518.16 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 518.16 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 518.16 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65f47719-cdf7-44ab-8ca5-a51f1acb7c8c")
+		)
+		(instances
+			(project "satWatch_main"
+				(path "/b975a3df-968d-424f-9025-993d668abad1"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -27841,7 +27357,7 @@
 			(uuid "9de36253-5c35-466f-b1f0-274f3f419c0e")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "SW3")
 					(unit 1)
@@ -27919,7 +27435,7 @@
 			(uuid "f04aed79-f836-47b0-9272-f8cad4e2c042")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP16")
 					(unit 1)
@@ -27997,7 +27513,7 @@
 			(uuid "3d0342fe-8da0-40c9-98d4-f16d1ae7385e")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR046")
 					(unit 1)
@@ -28148,7 +27664,7 @@
 			(uuid "dd8c808e-2bef-46cc-873e-432da65663f0")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "U3")
 					(unit 1)
@@ -28158,7 +27674,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 334.01 273.05 90)
+		(at 396.24 307.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28168,7 +27684,7 @@
 		(dnp no)
 		(uuid "956c40bd-e0ca-41b0-9407-75f1b83b3192")
 		(property "Reference" "R26"
-			(at 334.772 275.082 90)
+			(at 397.002 309.372 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28178,7 +27694,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 334.772 277.622 90)
+			(at 397.002 311.912 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28188,7 +27704,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 334.01 273.05 0)
+			(at 396.24 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28199,7 +27715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334.01 273.05 0)
+			(at 396.24 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28210,7 +27726,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 334.01 273.05 0)
+			(at 396.24 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28227,7 +27743,7 @@
 			(uuid "db5aaeb4-eee0-4700-9fb0-1d078026c144")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R26")
 					(unit 1)
@@ -28307,7 +27823,7 @@
 			(uuid "184279ef-76e7-446b-b760-8b409cb0ae4f")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R8")
 					(unit 1)
@@ -28388,7 +27904,7 @@
 			(uuid "c599386a-2dbd-4a60-a9b1-7e27cf38be8e")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C7")
 					(unit 1)
@@ -28480,7 +27996,7 @@
 			(uuid "681104c7-d2dc-4cdc-b8f0-79ba4a2d5266")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "J5")
 					(unit 1)
@@ -28490,7 +28006,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 449.58 264.16 0)
+		(at 511.81 298.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28501,7 +28017,7 @@
 		(fields_autoplaced yes)
 		(uuid "98d43f83-0b62-45e7-ba71-2d6a320abb24")
 		(property "Reference" "#PWR051"
-			(at 449.58 267.97 0)
+			(at 511.81 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28512,7 +28028,7 @@
 			)
 		)
 		(property "Value" "VCC_3V3"
-			(at 449.58 259.08 0)
+			(at 511.81 293.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28522,7 +28038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 449.58 264.16 0)
+			(at 511.81 298.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28533,7 +28049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 449.58 264.16 0)
+			(at 511.81 298.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28544,7 +28060,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 449.58 264.16 0)
+			(at 511.81 298.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28558,7 +28074,7 @@
 			(uuid "89849283-cf39-496a-bbcb-80d369835aad")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR051")
 					(unit 1)
@@ -28637,7 +28153,7 @@
 			(uuid "19edf2f8-475a-4890-b56e-02e0ba9ea64b")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R1")
 					(unit 1)
@@ -28668,7 +28184,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 448.31 82.5562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28719,7 +28235,7 @@
 			(uuid "1980442d-12b2-4762-bf92-7a8304adeb47")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C5")
 					(unit 1)
@@ -28801,7 +28317,7 @@
 			(uuid "b3d5007a-4d85-4ffe-9719-eb1f10091971")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "L1")
 					(unit 1)
@@ -28901,7 +28417,7 @@
 			(uuid "78bc9fc4-2d32-4e44-8092-43c3cfce9438")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "U5")
 					(unit 1)
@@ -29000,7 +28516,7 @@
 			(uuid "7d414b28-cab9-47a4-8d6b-30f990c885f5")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "U11")
 					(unit 1)
@@ -29078,7 +28594,7 @@
 			(uuid "cdc06662-adc4-4580-a490-d86cb1d2f023")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR031")
 					(unit 1)
@@ -29155,7 +28671,7 @@
 			(uuid "e284b4cd-130d-4607-901a-c547c77fa709")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR039")
 					(unit 1)
@@ -29165,7 +28681,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 482.6 298.45 0)
+		(at 544.83 332.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29176,7 +28692,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7f2d022-5192-46fa-9907-cf9e6b505007")
 		(property "Reference" "#PWR05"
-			(at 482.6 304.8 0)
+			(at 544.83 339.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29187,7 +28703,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 482.6 303.53 0)
+			(at 544.83 337.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29197,7 +28713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 482.6 298.45 0)
+			(at 544.83 332.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29208,7 +28724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 482.6 298.45 0)
+			(at 544.83 332.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29219,7 +28735,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 482.6 298.45 0)
+			(at 544.83 332.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29233,7 +28749,7 @@
 			(uuid "6885f331-199f-42d6-8aa8-c4ca8351b78a")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR05")
 					(unit 1)
@@ -29311,7 +28827,7 @@
 			(uuid "dcb4c620-f4f8-4916-b43f-5ed1890d104f")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR025")
 					(unit 1)
@@ -29390,7 +28906,7 @@
 			(uuid "d935ed37-8fad-49b5-bc3b-86a2d6f53a82")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR045")
 					(unit 1)
@@ -29472,7 +28988,7 @@
 			(uuid "8168238b-9fa8-49af-a4ea-aca6daa09eb7")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C10")
 					(unit 1)
@@ -29550,7 +29066,7 @@
 			(uuid "1dd09fe5-36ff-4b96-b12f-4968c13f5d4a")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP19")
 					(unit 1)
@@ -29628,7 +29144,7 @@
 			(uuid "03f84db5-9e2f-4694-ba04-3d34d2b55514")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR021")
 					(unit 1)
@@ -29638,7 +29154,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 490.22 292.1 0)
+		(at 552.45 326.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29648,7 +29164,7 @@
 		(dnp no)
 		(uuid "aea05363-655b-46d6-94e8-ec82ad5eb842")
 		(property "Reference" "C25"
-			(at 493.268 294.386 90)
+			(at 555.498 328.676 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29659,7 +29175,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 495.808 294.386 90)
+			(at 558.038 328.676 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29670,7 +29186,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 490.22 292.1 0)
+			(at 552.45 326.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29681,7 +29197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 490.22 292.1 0)
+			(at 552.45 326.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29692,7 +29208,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 490.22 292.1 0)
+			(at 552.45 326.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29709,7 +29225,7 @@
 			(uuid "a043d63b-04f5-46a1-b1a5-99599dfa05dc")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C25")
 					(unit 1)
@@ -29791,7 +29307,7 @@
 			(uuid "9ca516d2-2d6e-46b8-8964-0910d26bac41")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R7")
 					(unit 1)
@@ -30010,7 +29526,7 @@
 			(uuid "20980631-b70b-4a28-add4-25aacc2bc42b")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "J2")
 					(unit 1)
@@ -30092,7 +29608,7 @@
 			(uuid "55bfa891-973d-4420-96a8-b2333cade096")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R13")
 					(unit 1)
@@ -30173,7 +29689,7 @@
 			(uuid "a8491289-1da0-4ed7-b78f-351e1aa7fbba")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C2")
 					(unit 1)
@@ -30183,7 +29699,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 486.41 285.75 180)
+		(at 548.64 320.04 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30193,7 +29709,7 @@
 		(dnp no)
 		(uuid "b7a04909-77ed-4d2f-bbf5-8a8c17a7acbd")
 		(property "Reference" "Y2"
-			(at 494.538 281.686 0)
+			(at 556.768 315.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30203,7 +29719,7 @@
 			)
 		)
 		(property "Value" "32.768Hz"
-			(at 494.538 284.226 0)
+			(at 556.768 318.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30213,7 +29729,7 @@
 			)
 		)
 		(property "Footprint" "footprint:ABS07-32.768KHZ-T"
-			(at 486.41 285.75 0)
+			(at 548.64 320.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30224,7 +29740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 486.41 285.75 0)
+			(at 548.64 320.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30235,7 +29751,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 486.41 285.75 0)
+			(at 548.64 320.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30252,7 +29768,7 @@
 			(uuid "9d1c795e-87c2-4e87-bdfb-7630c1fde313")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "Y2")
 					(unit 1)
@@ -30262,7 +29778,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 463.55 299.72 0)
+		(at 525.78 334.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30273,7 +29789,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7f44f29-8561-46aa-bd97-c189b20249ef")
 		(property "Reference" "#PWR014"
-			(at 463.55 306.07 0)
+			(at 525.78 340.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30284,7 +29800,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 463.55 304.8 0)
+			(at 525.78 339.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30294,7 +29810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 463.55 299.72 0)
+			(at 525.78 334.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30305,7 +29821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 463.55 299.72 0)
+			(at 525.78 334.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30316,7 +29832,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 463.55 299.72 0)
+			(at 525.78 334.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30330,7 +29846,7 @@
 			(uuid "74b5ce61-9ab6-4e9e-ad40-cdc2f6f1e30b")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR014")
 					(unit 1)
@@ -30408,7 +29924,7 @@
 			(uuid "4ddf6664-9994-4763-a352-df56651c01f5")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP14")
 					(unit 1)
@@ -30490,7 +30006,7 @@
 			(uuid "c28639ab-acc5-4f77-91f1-b09440a9e5a2")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R14")
 					(unit 1)
@@ -30568,7 +30084,7 @@
 			(uuid "0162b7d6-208f-40fa-a91e-1981d4968f93")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP22")
 					(unit 1)
@@ -30646,7 +30162,7 @@
 			(uuid "b8d51374-765d-403b-abde-bcad7528103f")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP15")
 					(unit 1)
@@ -30729,7 +30245,7 @@
 			(uuid "c0edc38b-fa1f-4f49-80fb-3e233479dc1f")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "Q2")
 					(unit 1)
@@ -30821,7 +30337,7 @@
 			(uuid "0543b04b-52ff-45f7-867f-fce1b52df86a")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "U9")
 					(unit 1)
@@ -30902,7 +30418,7 @@
 			(uuid "70231683-c363-44ee-bd6b-0f93840ca7e1")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C15")
 					(unit 1)
@@ -30912,7 +30428,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 482.6 292.1 0)
+		(at 544.83 326.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30922,7 +30438,7 @@
 		(dnp no)
 		(uuid "c12f983c-c93d-462b-922c-3f45d33f5ca2")
 		(property "Reference" "C24"
-			(at 477.266 294.386 90)
+			(at 539.496 328.676 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30933,7 +30449,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 479.806 294.386 90)
+			(at 542.036 328.676 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30944,7 +30460,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 482.6 292.1 0)
+			(at 544.83 326.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30955,7 +30471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 482.6 292.1 0)
+			(at 544.83 326.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30966,7 +30482,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 482.6 292.1 0)
+			(at 544.83 326.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30983,7 +30499,7 @@
 			(uuid "60b976e1-34e3-4f8b-b004-dcdf16f7b8d2")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C24")
 					(unit 1)
@@ -31065,7 +30581,7 @@
 			(uuid "85aa9957-9590-40a1-8449-b30c9e22044b")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R24")
 					(unit 1)
@@ -31143,7 +30659,7 @@
 			(uuid "736880d2-eb12-44bb-81d2-7e4667c83bd8")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP24")
 					(unit 1)
@@ -31222,7 +30738,7 @@
 			(uuid "a6758248-62f0-4bbe-9d39-5033d47bceab")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R31")
 					(unit 1)
@@ -31300,7 +30816,7 @@
 			(uuid "02770cb6-14c4-4614-baef-1f65af09c3d4")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR09")
 					(unit 1)
@@ -31382,7 +30898,7 @@
 			(uuid "eb43f6ca-b710-439b-8c2b-5b2a876d7182")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C22")
 					(unit 1)
@@ -31463,7 +30979,7 @@
 			(uuid "776131c2-6705-4f55-990f-0d6d8bae7488")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C11")
 					(unit 1)
@@ -31541,7 +31057,7 @@
 			(uuid "f58abf9e-227d-48d7-8638-5a1444a1b5ac")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP21")
 					(unit 1)
@@ -31619,7 +31135,7 @@
 			(uuid "af5b3fac-6dc1-4729-a8a5-d44cfae885d9")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR03")
 					(unit 1)
@@ -31701,7 +31217,7 @@
 			(uuid "75d12d00-3416-4289-980c-3211c9e435f2")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C17")
 					(unit 1)
@@ -31802,7 +31318,7 @@
 			(uuid "6ca74784-be69-49d3-9648-5ca96dcca7f9")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "U10")
 					(unit 1)
@@ -31881,7 +31397,7 @@
 			(uuid "f3dd7ed3-2e43-450a-87bb-9a6aff399428")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R11")
 					(unit 1)
@@ -31974,7 +31490,7 @@
 			(uuid "873b7da6-d00e-485e-984c-270ff2f2825e")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "D6")
 					(unit 1)
@@ -32052,7 +31568,7 @@
 			(uuid "82927d8e-9242-4079-b810-c7e11c17196d")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR023")
 					(unit 1)
@@ -32188,7 +31704,7 @@
 			(uuid "7abf38f0-6034-428c-93b4-5229aeb76ff1")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "U2")
 					(unit 1)
@@ -32266,7 +31782,7 @@
 			(uuid "5670549a-4117-4b2a-82cb-d22f9f5bfcdb")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR028")
 					(unit 1)
@@ -32345,7 +31861,7 @@
 			(uuid "ffd9ff3d-1ed0-41a5-9758-3995e1e59fab")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R10")
 					(unit 1)
@@ -32426,7 +31942,7 @@
 			(uuid "ecd3cd11-c231-4a10-9664-3e30562b5f6d")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C6")
 					(unit 1)
@@ -32508,7 +32024,7 @@
 			(uuid "fc07e78b-6ea8-4ba6-bffe-ada1d3aab881")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R2")
 					(unit 1)
@@ -32601,7 +32117,7 @@
 			(uuid "bdbe30b6-bb33-46c1-879e-f293a5f22bcb")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "D3")
 					(unit 1)
@@ -32682,7 +32198,7 @@
 			(uuid "343f028e-3179-45ac-afd7-c1c0d6e63a53")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "SW5")
 					(unit 1)
@@ -32692,7 +32208,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 520.7 81.28 0)
+		(at 532.13 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32703,7 +32219,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1d33105-2f1c-4e2f-8bd8-1bf88ce2e994")
 		(property "Reference" "#PWR013"
-			(at 520.7 87.63 0)
+			(at 532.13 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32714,7 +32230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 520.7 86.36 0)
+			(at 532.13 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32724,7 +32240,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 520.7 81.28 0)
+			(at 532.13 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32735,7 +32251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 520.7 81.28 0)
+			(at 532.13 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32746,7 +32262,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 520.7 81.28 0)
+			(at 532.13 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32760,7 +32276,7 @@
 			(uuid "ce4430da-7e3d-4c32-bb2e-5717e6552cc6")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR013")
 					(unit 1)
@@ -32838,7 +32354,7 @@
 			(uuid "62953c97-e4df-402f-b5e4-3b957723e0a3")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR02")
 					(unit 1)
@@ -32920,7 +32436,7 @@
 			(uuid "cf10ccde-49a3-4a95-8b9d-cb47734f76db")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R20")
 					(unit 1)
@@ -33002,7 +32518,7 @@
 			(uuid "6698d82c-7f07-4a91-8b90-153d4339ac03")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "SW1")
 					(unit 1)
@@ -33083,7 +32599,7 @@
 			(uuid "f8689f2a-d170-4df8-bfd4-e6ca4d4d09b4")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R5")
 					(unit 1)
@@ -33161,7 +32677,7 @@
 			(uuid "426a5bc3-1302-42ab-863f-a3e62d74b8e0")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR04")
 					(unit 1)
@@ -33299,7 +32815,7 @@
 			(uuid "4e095954-9c9d-411a-8b08-60689c45793a")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "U4")
 					(unit 1)
@@ -33378,7 +32894,7 @@
 			(uuid "dcb2a598-6f41-47de-99ff-3b2dfef1b136")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R17")
 					(unit 1)
@@ -33472,7 +32988,7 @@
 			(uuid "6cc1ebae-2138-4142-b893-ac59a7fb00f3")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "LED1")
 					(unit 1)
@@ -33554,7 +33070,7 @@
 			(uuid "4696382e-8e7d-4bf8-b1a6-c607b3ece0b1")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R23")
 					(unit 1)
@@ -33636,7 +33152,7 @@
 			(uuid "173d7e06-9180-4e76-b557-64395e9ade46")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R28")
 					(unit 1)
@@ -33812,7 +33328,7 @@
 			(uuid "350fb900-c7f2-4388-b1d0-f47a31b1ece9")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "J1")
 					(unit 1)
@@ -33891,7 +33407,7 @@
 			(uuid "6af8ab64-3133-477f-9abe-906a9f124332")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP8")
 					(unit 1)
@@ -33901,7 +33417,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 454.66 266.7 90)
+		(at 516.89 300.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33911,7 +33427,7 @@
 		(dnp no)
 		(uuid "f52fb0da-666d-4894-a9be-6350f82d9842")
 		(property "Reference" "C27"
-			(at 456.946 272.034 90)
+			(at 519.176 306.324 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33922,7 +33438,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 456.946 269.494 90)
+			(at 519.176 303.784 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33933,7 +33449,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 454.66 266.7 0)
+			(at 516.89 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33944,7 +33460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 454.66 266.7 0)
+			(at 516.89 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33955,7 +33471,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 454.66 266.7 0)
+			(at 516.89 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33972,7 +33488,7 @@
 			(uuid "2e7adc5b-56da-40ff-ae93-fa039bb7affe")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C27")
 					(unit 1)
@@ -34053,7 +33569,7 @@
 			(uuid "3a7d3c63-35e7-4a72-9d5b-5ca1c22faf43")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "Y1")
 					(unit 1)
@@ -34131,7 +33647,7 @@
 			(uuid "dd3d1bfe-3fda-44b8-8e5f-4bd032eb1087")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR011")
 					(unit 1)
@@ -34141,7 +33657,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 328.93 269.24 90)
+		(at 391.16 303.53 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34152,7 +33668,7 @@
 		(fields_autoplaced yes)
 		(uuid "f96c1081-de27-481e-b5de-08a09fcbd3b2")
 		(property "Reference" "R6"
-			(at 328.93 262.89 90)
+			(at 391.16 297.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34162,7 +33678,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 328.93 265.43 90)
+			(at 391.16 299.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34172,7 +33688,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 328.93 269.24 0)
+			(at 391.16 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34183,7 +33699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.93 269.24 0)
+			(at 391.16 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34194,7 +33710,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 328.93 269.24 0)
+			(at 391.16 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34211,7 +33727,7 @@
 			(uuid "95571f8f-a5de-4100-a98a-0a6a9360cd0e")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R6")
 					(unit 1)
@@ -34289,7 +33805,7 @@
 			(uuid "692c8b57-841a-4294-87f2-a0ebd5ed699b")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP25")
 					(unit 1)
@@ -34370,7 +33886,7 @@
 			(uuid "60a85d89-9be7-41dc-b99a-84b26915b05f")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "C13")
 					(unit 1)
@@ -34380,7 +33896,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 388.62 298.45 270)
+		(at 450.85 332.74 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34391,7 +33907,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb6f3cba-12df-4b89-9f53-1fe4cafa028a")
 		(property "Reference" "#PWR038"
-			(at 382.27 298.45 0)
+			(at 444.5 332.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34402,7 +33918,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 384.81 298.4499 90)
+			(at 447.04 332.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34413,7 +33929,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 388.62 298.45 0)
+			(at 450.85 332.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34424,7 +33940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 388.62 298.45 0)
+			(at 450.85 332.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34435,7 +33951,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 388.62 298.45 0)
+			(at 450.85 332.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34449,7 +33965,7 @@
 			(uuid "c4083ed8-f70f-44d5-8e3d-f7118e22510e")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "#PWR038")
 					(unit 1)
@@ -34528,7 +34044,7 @@
 			(uuid "8c607e0d-8953-4098-a887-c0552812b3d4")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "R30")
 					(unit 1)
@@ -34607,7 +34123,7 @@
 			(uuid "4f1e3d00-6b1d-4060-b8b5-e4e053eb3991")
 		)
 		(instances
-			(project "satWatch_main_LargePrototype"
+			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(reference "TP3")
 					(unit 1)
