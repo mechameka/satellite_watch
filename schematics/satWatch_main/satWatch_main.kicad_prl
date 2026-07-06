@@ -53,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_fffffffd_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -63,11 +63,13 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "satWatch_main_LargePrototype.kicad_prl",
+    "filename": "satWatch_main.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
+      false,
+      false,
       false,
       false,
       false,
@@ -89,19 +91,23 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
-      77,
-      80,
-      113,
+      222,
+      207,
+      136,
       92,
+      136,
+      136,
+      136,
       98,
-      115,
-      100,
-      98,
-      49,
-      50
+      136,
+      136,
+      136,
+      136
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
