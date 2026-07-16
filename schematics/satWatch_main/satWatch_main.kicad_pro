@@ -61,7 +61,7 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.2,
-          "min_island_area": 10.0,
+          "min_island_area": 9.99999999996,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
@@ -249,7 +249,7 @@
         },
         {
           "diameter": 0.45,
-          "drill": 0.3
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -516,7 +516,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -527,7 +527,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -766,6 +766,22 @@
     [
       "b975a3df-968d-424f-9025-993d668abad1",
       "satWatch_main"
+    ],
+    [
+      "2645c698-4441-417f-aea5-efc1ff38d74b",
+      "Mainboard"
+    ],
+    [
+      "c33fb132-657a-461d-a679-63cc14218e52",
+      "Programmer"
+    ],
+    [
+      "36012f26-864d-4ae1-ac40-a399ef9fcc12",
+      "Charger"
+    ],
+    [
+      "0425e4d7-ccce-4e74-a234-f8bc72f3ee67",
+      "face1"
     ]
   ],
   "text_variables": {},

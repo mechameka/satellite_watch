@@ -1243,7 +1243,7 @@
 			)
 		)
 		(property "Value" "FS8205"
-			(at 6.653 2.573 90)
+			(at -0.005 -4.73 90)
 			(layer "F.Fab")
 			(uuid "edc95d7f-2c5b-4ab1-aa6c-675d7a793d40")
 			(effects
@@ -20751,7 +20751,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "133.85"
+		(gr_text "5269.685"
 			(at 148.925 122.15 0)
 			(layer "F.Fab")
 			(uuid "31ca9f62-d2f1-47c9-8e65-4aecdb0014d8")
@@ -20789,7 +20789,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "48.8"
+		(gr_text "1921.2598"
 			(at 222.05 91.95 90)
 			(layer "F.Fab")
 			(uuid "77e367d4-d415-4aaa-8dc4-e6c1dc653448")
