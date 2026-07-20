@@ -4984,7 +4984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "041d0443-75b2-4cc7-a22e-123f6ed5ccf1")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 90.678 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5048,7 +5048,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5065,7 +5065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0640b4d7-48cc-4d47-a8a1-d7f93cf9d6b4")
-		(property "Reference" "R26"
+		(property "Reference" "R24"
 			(at 217.678 143.256 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5127,7 +5127,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "R26")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -5228,7 +5228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b1817e8-814e-46d5-84ac-e23ca53d4ebf")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 151.13 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5290,7 +5290,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -5307,7 +5307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fd2a1ad-76fc-4eea-b162-52d59463bd38")
-		(property "Reference" "C25"
+		(property "Reference" "C21"
 			(at 42.672 162.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5371,7 +5371,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "C25")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -5468,7 +5468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22dc109c-9497-42f6-a952-50d9cebcf1df")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5529,7 +5529,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -5547,7 +5547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "268ed1dd-6275-4f2a-a9fa-9bdeb2f19433")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR053"
 			(at 45.72 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5608,7 +5608,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "#PWR056")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -5625,7 +5625,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28244273-e174-478c-bb09-4da1aeca1dfe")
-		(property "Reference" "C27"
+		(property "Reference" "C23"
 			(at 80.772 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5689,7 +5689,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "C27")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -5707,7 +5707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d88b799-4d95-4f8f-bc71-919031d69dc4")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR062"
 			(at 161.29 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5768,7 +5768,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "#PWR060")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -5786,7 +5786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "401ef2e1-315b-43f6-b00b-0022ee77dfe6")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 95.5675 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5848,7 +5848,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5946,7 +5946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4da19d8a-9b46-4035-980f-964be72058a2")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR066"
 			(at 182.88 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -6007,7 +6007,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "#PWR064")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -6024,7 +6024,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "517e55f1-cad1-49cc-a71f-cfc5d8052e4b")
-		(property "Reference" "C23"
+		(property "Reference" "C27"
 			(at 168.148 122.428 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6088,7 +6088,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "C23")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -6106,7 +6106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "543276ac-42ed-44db-9e72-1f85261efc0b")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR067"
 			(at 196.85 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6167,7 +6167,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "#PWR062")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -6184,7 +6184,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55ea2780-8322-4e09-9fa3-1a4391ddff0c")
-		(property "Reference" "C22"
+		(property "Reference" "C26"
 			(at 166.878 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6248,7 +6248,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "C22")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -6266,7 +6266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56f596c4-504a-4356-9bb0-8e58f0b02acf")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR056"
 			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6327,7 +6327,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "#PWR051")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -6345,7 +6345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ae817ad-ea41-4610-a2d6-21454fcf8a9d")
-		(property "Reference" "Q7"
+		(property "Reference" "Q5"
 			(at 238.76 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6437,7 +6437,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "Q7")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -6454,7 +6454,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e7095c9-90aa-4ed1-95eb-0efb25131911")
-		(property "Reference" "R20"
+		(property "Reference" "R19"
 			(at 109.728 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6516,7 +6516,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6625,7 +6625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f7c8498-5868-4771-90df-931ca9857812")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR054"
 			(at 60.96 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6686,7 +6686,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "#PWR06")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6703,7 +6703,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "700e296f-9c12-4901-a2d5-d1391b3dc1a6")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 75.184 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6767,7 +6767,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6784,7 +6784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "735d1f5c-9d6b-4368-bf21-3dea209d42b4")
-		(property "Reference" "C24"
+		(property "Reference" "C28"
 			(at 168.148 146.558 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6848,7 +6848,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "C24")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -6865,7 +6865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75dbb1fc-ee12-4c5c-a9b9-082d3836d3bc")
-		(property "Reference" "R22"
+		(property "Reference" "R25"
 			(at 218.948 35.306 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6927,7 +6927,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "R22")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7024,7 +7024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8600dfb8-cf0c-4b9b-b5f3-15c7068a50c8")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR063"
 			(at 168.91 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7085,7 +7085,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "#PWR061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -7102,7 +7102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89e7a733-87bd-4aa5-883b-6ec418948fac")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 246.888 152.146 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7164,7 +7164,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -7181,7 +7181,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d0cb42c-267a-4301-93b5-87f680772261")
-		(property "Reference" "R28"
+		(property "Reference" "R18"
 			(at 99.441 156.591 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7245,7 +7245,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "R28")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7341,7 +7341,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9897e8f0-f633-4753-a1b9-3f8c914dd50d")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 83.058 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7405,7 +7405,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7422,7 +7422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a2be780-35a3-4366-b47e-118e7195c1eb")
-		(property "Reference" "R24"
+		(property "Reference" "R23"
 			(at 217.678 121.666 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7484,7 +7484,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "R24")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -7501,7 +7501,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b629d78-7e38-4572-a88a-8da7084e1610")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 67.564 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7565,7 +7565,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7583,7 +7583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bbc537b-0ca1-44a9-8397-c767386fd8d6")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 181.61 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7647,7 +7647,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -7664,7 +7664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e2f9ce8-fc63-4add-949a-e6303c4dafd2")
-		(property "Reference" "R25"
+		(property "Reference" "R27"
 			(at 246.888 114.046 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7726,7 +7726,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "R25")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7743,7 +7743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e98641e-8352-42a7-acb5-9238fab1f921")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR061"
 			(at 142.24 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7804,7 +7804,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "#PWR059")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -7821,7 +7821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a436eac1-c50e-4f41-a087-4530af4e1d91")
-		(property "Reference" "R19"
+		(property "Reference" "R21"
 			(at 153.67 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7885,7 +7885,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7902,7 +7902,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2518e26-8068-4992-a571-a6aebf4e11cf")
-		(property "Reference" "R23"
+		(property "Reference" "R26"
 			(at 218.948 37.846 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7964,7 +7964,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "R23")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -7982,7 +7982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b44fa666-917f-4f34-a7bf-dc21f586a74c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR055"
 			(at 66.04 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -8043,7 +8043,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "#PWR014")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -8061,7 +8061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4cdcd50-4726-40b9-a14f-c3502680cd50")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 109.22 166.6874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8136,7 +8136,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8153,7 +8153,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b89b2d2a-733f-480a-ab24-11443839bb4d")
-		(property "Reference" "C21"
+		(property "Reference" "C25"
 			(at 163.322 53.848 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8217,7 +8217,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "C21")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -8234,7 +8234,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b98822ae-e3fd-44ca-a1bb-875eb8d71ca7")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 98.298 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8298,7 +8298,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8315,7 +8315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9ac563f-2b7a-4a8a-9e07-b91dd8a8d698")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR052"
 			(at 43.18 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8376,7 +8376,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "#PWR066")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8393,7 +8393,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7a11268-f8d9-420c-81e5-385fce5136d0")
-		(property "Reference" "C28"
+		(property "Reference" "C24"
 			(at 89.662 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8457,7 +8457,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "C28")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -8475,7 +8475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc09f99c-40ac-4bf5-a0a9-a1f5ddc6938d")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 168.91 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8536,7 +8536,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -8716,7 +8716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0a1001a-d2c3-4161-bb52-d71668b9484a")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR058"
 			(at 90.17 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8777,7 +8777,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "#PWR067")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -9014,7 +9014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df528d54-cfee-4dca-a30e-f8277e06ee05")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR060"
 			(at 111.76 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9075,7 +9075,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "#PWR015")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -9092,7 +9092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb2dd540-9117-4ecb-b5a6-d0147e877562")
-		(property "Reference" "C26"
+		(property "Reference" "C22"
 			(at 51.562 162.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9156,7 +9156,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "C26")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -9174,7 +9174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2fc8499-d44a-4d7c-aec0-1bb7ba9710b1")
-		(property "Reference" "D3"
+		(property "Reference" "D7"
 			(at 115.57 93.0274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9249,7 +9249,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "D3")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9267,7 +9267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f397f2a0-688a-4a3c-b51c-35fa92c93aad")
-		(property "Reference" "Q6"
+		(property "Reference" "Q4"
 			(at 238.76 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9359,7 +9359,7 @@
 		(instances
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1/c33fb132-657a-461d-a679-63cc14218e52"
-					(reference "Q6")
+					(reference "Q4")
 					(unit 1)
 				)
 			)

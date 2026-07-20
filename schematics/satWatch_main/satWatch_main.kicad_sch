@@ -13,7 +13,7 @@
 	(lib_symbols)
 	(text "DEFAULT FACEPLATE\n-EXTERNAL PROJECT FILE FOR FACEPLATE VARIATIONS\n"
 		(exclude_from_sim no)
-		(at 159.004 184.15 0)
+		(at 73.66 90.678 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23,7 +23,7 @@
 		(uuid "eb5ad89e-b471-4a1d-80d3-e5bd5b8e12c0")
 	)
 	(sheet
-		(at 93.98 180.34)
+		(at 64.77 93.98)
 		(size 62.23 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39,7 +39,7 @@
 		)
 		(uuid "0425e4d7-ccce-4e74-a234-f8bc72f3ee67")
 		(property "Sheetname" "face1"
-			(at 93.98 179.6284 0)
+			(at 64.77 93.2684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50,7 +50,7 @@
 			)
 		)
 		(property "Sheetfile" "satWatch_face1.kicad_sch"
-			(at 93.98 227.9146 0)
+			(at 64.77 141.5546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -110,52 +110,6 @@
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 72.39 97.79)
-		(size 68.58 62.23)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "36012f26-864d-4ae1-ac40-a399ef9fcc12")
-		(property "Sheetname" "Charger"
-			(at 72.39 97.0784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "satWatch_charger.kicad_sch"
-			(at 72.39 160.6046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "satWatch_main"
-				(path "/b975a3df-968d-424f-9025-993d668abad1"
-					(page "4")
 				)
 			)
 		)
