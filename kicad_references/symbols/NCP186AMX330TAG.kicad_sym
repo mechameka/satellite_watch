@@ -12,7 +12,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -10.16 13.208 0)
+			(at -11.43 0.508 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Value" "NCP186AMX330TAG"
-			(at -10.16 -17.78 0)
+			(at -8.89 0.762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Footprint" "NCP186AMX330TAG:PSON40P160X120X45-9N"
-			(at 0 0 0)
+			(at -1.27 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -68,7 +68,7 @@
 			)
 		)
 		(property "PARTREV" "Rev.5"
-			(at 0 0 0)
+			(at -1.27 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -80,7 +80,7 @@
 			)
 		)
 		(property "MANUFACTURER" "On Semiconductor"
-			(at 0 0 0)
+			(at -1.27 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -92,7 +92,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 0 0 0)
+			(at -1.27 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -105,8 +105,8 @@
 		)
 		(symbol "NCP186AMX330TAG_0_0"
 			(rectangle
-				(start -10.16 -15.24)
-				(end 10.16 12.7)
+				(start -11.43 0)
+				(end 8.89 -15.24)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -116,7 +116,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 10.16 180)
+				(at 13.97 -2.54 180)
 				(length 5.08)
 				(name "OUT"
 					(effects
@@ -134,7 +134,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 7.62 180)
+				(at 13.97 -5.08 180)
 				(length 5.08)
 				(name "OUT__1"
 					(effects
@@ -152,7 +152,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -5.08 180)
+				(at -16.51 -11.43 0)
 				(length 5.08)
 				(name "N/C"
 					(effects
@@ -170,7 +170,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 2.54 180)
+				(at 13.97 -7.62 180)
 				(length 5.08)
 				(name "FB/ADJ"
 					(effects
@@ -188,7 +188,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -12.7 180)
+				(at 13.97 -13.97 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -206,7 +206,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 2.54 0)
+				(at -16.51 -7.62 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -224,7 +224,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 10.16 0)
+				(at -16.51 -2.54 0)
 				(length 5.08)
 				(name "IN"
 					(effects
@@ -242,7 +242,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 7.62 0)
+				(at -16.51 -5.08 0)
 				(length 5.08)
 				(name "IN__1"
 					(effects
@@ -260,7 +260,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -10.16 180)
+				(at 13.97 -11.43 180)
 				(length 5.08)
 				(name "EPAD"
 					(effects

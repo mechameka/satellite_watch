@@ -1,0 +1,222 @@
+(footprint "WLP-4_0.83x0.83mm_P0.4mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "WLP-4_0.83x0.83mm_P0.4mm https://pdfserv.maximintegrated.com/package_dwgs/21-100107.PDF, https://www.maximintegrated.com/en/app-notes/index.mvp/id/1891")
+	(tags "WLP-4")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(layer "F.SilkS")
+		(uuid "cd40b1cb-6355-4102-a20b-e00b9e8e9741")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WLP-4_0.83x0.83mm_P0.4mm"
+		(at 0 2.25 0)
+		(layer "F.Fab")
+		(uuid "b02ab406-2f88-4616-9d7a-7cec2bf2f7fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e6dec70-3873-43fb-b517-ac50f2cf07d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2027c89b-8392-49d3-9f69-93bcff8ca000")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.525 -0.205)
+		(end -0.525 0.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd0f0a7b-7072-4605-92c6-3df687c603fe")
+	)
+	(fp_line
+		(start -0.525 0.525)
+		(end 0.525 0.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "833f4ed1-27fc-49cf-bdc6-24e963f50205")
+	)
+	(fp_line
+		(start -0.205 -0.525)
+		(end 0.525 -0.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60d09542-1fd9-4035-b49e-3fe06cdce7b1")
+	)
+	(fp_line
+		(start 0.525 0.525)
+		(end 0.525 -0.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe184a6a-79ae-4a6b-9bce-5a7aa53e231d")
+	)
+	(fp_poly
+		(pts
+			(xy -0.525 -0.525) (xy -1.025 -0.525) (xy -0.525 -1.025) (xy -0.525 -0.525)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "80347af2-0354-492f-8eeb-99951b9bf7a9")
+	)
+	(fp_rect
+		(start -0.75 -0.75)
+		(end 0.75 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "39cf90e5-db9a-467b-a739-cc0f28ea38e0")
+	)
+	(fp_line
+		(start -0.415 -0.2)
+		(end -0.415 0.415)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14389a52-1b98-4b40-8033-2f31047166f2")
+	)
+	(fp_line
+		(start -0.2 -0.415)
+		(end -0.415 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ef9adc1-61b5-449f-ad27-fb3af49a195f")
+	)
+	(fp_line
+		(start 0.415 -0.415)
+		(end -0.2 -0.415)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21e0a71a-ae9a-414d-ac95-df5ed239f899")
+	)
+	(fp_line
+		(start 0.415 -0.415)
+		(end 0.415 0.415)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8213dc0d-02b9-4e85-a8e0-fae8202fcc20")
+	)
+	(fp_line
+		(start 0.415 0.415)
+		(end -0.415 0.415)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5393dc4d-bdf7-4f39-994e-08ab65ee1fd3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "cfecaced-8ad1-4c46-aad7-8aca151a3b4e")
+		(effects
+			(font
+				(size 0.18 0.18)
+				(thickness 0.045)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.2 -0.2)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1d4416c9-13c9-4c88-8416-3c6a149c38df")
+	)
+	(pad "A2" smd circle
+		(at 0.2 -0.2)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1e0fe772-be7e-4cb1-b8dd-3d7b03257bfd")
+	)
+	(pad "B1" smd circle
+		(at -0.2 0.2)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "46b0cb93-0c38-4fdd-9823-1fc67a7da730")
+	)
+	(pad "B2" smd circle
+		(at 0.2 0.2)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ea55cb58-e21c-4a5f-99c2-c5bade7ca281")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Package_BGA.3dshapes/WLP-4_0.83x0.83mm_P0.4mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

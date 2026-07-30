@@ -1,0 +1,121 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "51ea3200-1193-4241-98dd-8a7ea8639546")
+	(paper "A4")
+	(title_block
+		(title "PROTEUS SMARTWATCH")
+		(rev "v2")
+		(company "MECHAMEKA0")
+	)
+	(lib_symbols)
+	(text "RECONFIGURABLE BETWEEN \n*CHARGING DOCK-MODULE\n*WATCHBODY"
+		(exclude_from_sim no)
+		(at 145.796 126.492 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a636f3b-1efc-454c-bb8f-2a7dcc99e84f")
+	)
+	(sheet
+		(at 172.72 76.2)
+		(size 43.18 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2c084d18-86ee-4df5-8e9e-3c0aac4d32a2")
+		(property "Sheetname" "programmer"
+			(at 172.72 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "programmer.kicad_sch"
+			(at 172.72 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proteus_watch"
+				(path "/51ea3200-1193-4241-98dd-8a7ea8639546"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 76.2)
+		(size 38.1 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b74f9e4e-d895-4178-9398-48e0a406bac7")
+		(property "Sheetname" "mainboard"
+			(at 127 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mainboard.kicad_sch"
+			(at 127 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proteus_watch"
+				(path "/51ea3200-1193-4241-98dd-8a7ea8639546"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

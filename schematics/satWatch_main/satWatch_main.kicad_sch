@@ -5,15 +5,35 @@
 	(uuid "b975a3df-968d-424f-9025-993d668abad1")
 	(paper "A3")
 	(title_block
-		(title "MAINBOARD")
-		(rev "0.1")
+		(title "satWatch")
+		(rev "2.0")
 		(company "MECHAMEKA")
-		(comment 1 "MAINBOARD OF WATCHBODY")
 	)
 	(lib_symbols)
-	(text "DEFAULT FACEPLATE\n-EXTERNAL PROJECT FILE FOR FACEPLATE VARIATIONS\n"
+	(text "HCMS-2901 DOT MATRIX"
 		(exclude_from_sim no)
-		(at 73.66 90.678 0)
+		(at 86.614 197.358 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f6af469-f3ec-47fd-a72e-e94e77a4d0d3")
+	)
+	(text "SIMPLE FACEPLATE\nHP BUBBLE LED\n"
+		(exclude_from_sim no)
+		(at 73.914 153.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7036537-b142-42ae-a5ff-4b39013ad16b")
+	)
+	(text "DEFAULT FACEPLATE\n0.96\" IPS, VIB.MOTOR, 2X4 LED GRID\n"
+		(exclude_from_sim no)
+		(at 72.39 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -110,6 +130,98 @@
 			(project "satWatch_main"
 				(path "/b975a3df-968d-424f-9025-993d668abad1"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 199.39)
+		(size 60.96 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3a6784ba-3da0-4f01-9547-b7e07c6530cc")
+		(property "Sheetname" "face3"
+			(at 67.31 198.6784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "satWatch_face3.kicad_sch"
+			(at 67.31 243.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "satWatch_main"
+				(path "/b975a3df-968d-424f-9025-993d668abad1"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 157.48)
+		(size 60.96 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5ebb0394-0c5f-4519-a213-215c95ea8d2e")
+		(property "Sheetname" "face2"
+			(at 67.31 156.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "satWatch_face2.kicad_sch"
+			(at 67.31 192.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "satWatch_main"
+				(path "/b975a3df-968d-424f-9025-993d668abad1"
+					(page "4")
 				)
 			)
 		)

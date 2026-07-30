@@ -5,9 +5,9 @@
 	(uuid "0bcce096-b4ee-4557-add2-670594456a39")
 	(paper "A4")
 	(title_block
-		(title "UART Programmer Board")
-		(rev "V0")
-		(company "mechameka")
+		(title "satWatch")
+		(rev "2.0")
+		(company "MECHAMEKA")
 		(comment 1 "Component reference from ESP32-S3 DevKitC")
 	)
 	(lib_symbols

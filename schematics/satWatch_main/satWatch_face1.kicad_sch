@@ -5,9 +5,9 @@
 	(uuid "d367dba3-18d0-413d-aad4-f7524070522b")
 	(paper "A4")
 	(title_block
-		(title "Faceplate: 0.96\" SPI TFT + LED Array")
-		(rev "0")
-		(company "mechameka0")
+		(title "satWatch")
+		(rev "2.0")
+		(company "MECHAMEKA")
 		(comment 1 "Default watchface")
 	)
 	(lib_symbols
@@ -4940,12 +4940,6 @@
 		(uuid "c1ed4fcd-3394-4b1a-aa42-96bf17f4e915")
 	)
 	(junction
-		(at 137.16 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cddeac89-5e9b-47c6-8f8b-ce9bbfaca9b1")
-	)
-	(junction
 		(at 55.88 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4974,6 +4968,10 @@
 		(uuid "06c50b49-cd17-4390-95ba-4ed656a1c59c")
 	)
 	(no_connect
+		(at 134.62 86.36)
+		(uuid "076d1d66-aaa4-4cb8-be36-8d69e94a8418")
+	)
+	(no_connect
 		(at 251.46 40.64)
 		(uuid "191c111b-7831-4812-85a8-b6f61f9db2f2")
 	)
@@ -4984,6 +4982,10 @@
 	(no_connect
 		(at 251.46 58.42)
 		(uuid "9bc2ddd5-3141-421f-a114-29a7a31cb4bc")
+	)
+	(no_connect
+		(at 134.62 88.9)
+		(uuid "bc7e0fa6-ba76-4aad-81a6-baa41cf61a90")
 	)
 	(no_connect
 		(at 251.46 38.1)
@@ -5751,16 +5753,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 86.36) (xy 137.16 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "705dae51-45ca-4a69-9b27-08c69cb111e9")
-	)
-	(wire
-		(pts
 			(xy 58.42 53.34) (xy 64.77 53.34)
 		)
 		(stroke
@@ -6171,16 +6163,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 88.9) (xy 134.62 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beb80c5f-9773-46eb-b354-245712e5ca58")
-	)
-	(wire
-		(pts
 			(xy 113.03 38.1) (xy 121.92 38.1)
 		)
 		(stroke
@@ -6271,16 +6253,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 86.36) (xy 137.16 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca2f5614-05a9-4b5d-b666-feb45b6463c6")
-	)
-	(wire
-		(pts
 			(xy 66.04 68.58) (xy 58.42 68.58)
 		)
 		(stroke
@@ -6358,16 +6330,6 @@
 			(type default)
 		)
 		(uuid "d81db692-65f7-45ce-ad5a-7d5593b291e4")
-	)
-	(wire
-		(pts
-			(xy 146.05 86.36) (xy 137.16 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d849ab67-0f4c-4b59-a9a9-dc22008afc48")
 	)
 	(wire
 		(pts
@@ -9891,84 +9853,6 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 146.05 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8482d6ca-7c3a-482d-8fca-395d24625ab8")
-		(property "Reference" "#PWR075"
-			(at 146.05 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FRONT_5V"
-			(at 146.05 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 146.05 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3602d764-db6a-4a0c-b813-ae02897d60ff")
-		)
-		(instances
-			(project "satWatch_main"
-				(path "/b975a3df-968d-424f-9025-993d668abad1/0425e4d7-ccce-4e74-a234-f8bc72f3ee67"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
 		(at 222.25 146.05 0)
 		(unit 1)
 		(body_style 1)
@@ -12133,7 +12017,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT2222A"
+		(property "Value" "MMBT2222ALT3G"
 			(at 257.81 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
