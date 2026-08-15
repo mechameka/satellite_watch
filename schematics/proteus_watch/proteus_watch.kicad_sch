@@ -20,6 +20,26 @@
 		)
 		(uuid "3a636f3b-1efc-454c-bb8f-2a7dcc99e84f")
 	)
+	(text "4x2 LED ARRAY + 0.96\"TFT DISPLAY"
+		(exclude_from_sim no)
+		(at 91.44 122.936 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d683631-1a97-4ea2-a8a3-ffc2f3a7cd82")
+	)
+	(text "HP BUBBLE LED"
+		(exclude_from_sim no)
+		(at 91.948 169.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bcbc942a-1fc4-4651-bc5e-c12a55ca01d6")
+	)
 	(sheet
 		(at 172.72 76.2)
 		(size 43.18 41.91)
@@ -67,6 +87,52 @@
 		)
 	)
 	(sheet
+		(at 73.66 129.54)
+		(size 36.83 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a690b0d7-1073-4cb2-a5c1-5c26909e8ee3")
+		(property "Sheetname" "face2"
+			(at 73.66 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "face2.kicad_sch"
+			(at 73.66 165.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proteus_watch"
+				(path "/51ea3200-1193-4241-98dd-8a7ea8639546"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 127 76.2)
 		(size 38.1 41.91)
 		(exclude_from_sim no)
@@ -108,6 +174,52 @@
 			(project "proteus_watch"
 				(path "/51ea3200-1193-4241-98dd-8a7ea8639546"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 76.2)
+		(size 36.83 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fc270c68-526f-48b2-90ed-13de2fe7822f")
+		(property "Sheetname" "face1"
+			(at 73.66 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "face1.kicad_sch"
+			(at 73.66 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proteus_watch"
+				(path "/51ea3200-1193-4241-98dd-8a7ea8639546"
+					(page "4")
 				)
 			)
 		)
