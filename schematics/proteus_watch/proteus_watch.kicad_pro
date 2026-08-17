@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|136286000|115798200|c7a07461-b4cd-45c8-aea6-25fb01b064f4|00000000-0000-0000-0000-000000000000",
+          "removed silkscreen from library"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -160,8 +165,8 @@
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.2,
-        "min_via_diameter": 0.6,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -516,7 +521,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.16,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -760,7 +765,7 @@
         "uuid": "51ea3200-1193-4241-98dd-8a7ea8639546"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR101",
     "variants": []
   },
   "sheets": [
