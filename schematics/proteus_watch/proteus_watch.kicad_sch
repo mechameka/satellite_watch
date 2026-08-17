@@ -30,6 +30,16 @@
 		)
 		(uuid "5d683631-1a97-4ea2-a8a3-ffc2f3a7cd82")
 	)
+	(text "HCMS-2901 DOT MATRIX DISPLAY\n"
+		(exclude_from_sim no)
+		(at 91.186 32.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abd635f7-b2df-410e-b7f6-39fd2a07de25")
+	)
 	(text "HP BUBBLE LED"
 		(exclude_from_sim no)
 		(at 91.948 169.418 0)
@@ -174,6 +184,52 @@
 			(project "proteus_watch"
 				(path "/51ea3200-1193-4241-98dd-8a7ea8639546"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 36.83)
+		(size 36.83 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f277af47-14d9-4397-be63-87aa0aa30963")
+		(property "Sheetname" "face3"
+			(at 73.66 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "face3.kicad_sch"
+			(at 73.66 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proteus_watch"
+				(path "/51ea3200-1193-4241-98dd-8a7ea8639546"
+					(page "6")
 				)
 			)
 		)

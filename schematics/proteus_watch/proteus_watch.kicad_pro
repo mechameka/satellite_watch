@@ -760,7 +760,7 @@
         "uuid": "51ea3200-1193-4241-98dd-8a7ea8639546"
       }
     ],
-    "used_designators": "C3,C6,C9,C27-31,C33-36,D1-8,D11-18,#PWR1,#PWR13,#PWR43,#PWR61-124,J4-5,J7-14,R2-5,R17-29,R33-72,U2,U11-22,NT1,Q4-16,TH1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -783,6 +783,10 @@
     [
       "a690b0d7-1073-4cb2-a5c1-5c26909e8ee3",
       "face2"
+    ],
+    [
+      "f277af47-14d9-4397-be63-87aa0aa30963",
+      "face3"
     ]
   ],
   "text_variables": {},

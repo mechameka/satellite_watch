@@ -1,4 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "footprint") (type "KiCad") (uri "M:/r/satellite_watch/kicad_references/footprints") (options "") (descr ""))
+	(lib (name "footprint") (type "KiCad") (uri "C:/r/satellite_watch/kicad_references/footprints") (options "") (descr ""))
 )

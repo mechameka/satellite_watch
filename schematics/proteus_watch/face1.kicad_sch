@@ -7191,6 +7191,16 @@
 		)
 		(uuid "cc28397d-0ae9-476b-b7d0-55e200eb24b3")
 	)
+	(label "GPIO48"
+		(at 133.35 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc9074bb-a583-4b40-aa7d-f56a1c0a59be")
+	)
 	(label "SDA"
 		(at 36.83 157.48 180)
 		(effects
